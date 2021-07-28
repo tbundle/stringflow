@@ -1,0 +1,1264 @@
+2019-10-21 12:08:29,824 [main] INFO  abs.ixi.server.Stringflow - Starting Stringflow process...
+2019-10-21 12:08:29,828 [main] INFO  abs.ixi.server.Stringflow - Loading server configurations
+2019-10-21 12:08:29,829 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading configurations from file: system.properties
+2019-10-21 12:08:29,834 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading config file process.properties
+2019-10-21 12:08:29,837 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.server.jid has value sf@alterbasics.com
+2019-10-21 12:08:29,838 [main] INFO  abs.ixi.server.Stringflow - Server has been registered in domain alterbasics.com
+2019-10-21 12:08:29,839 [main] DEBUG abs.ixi.server.Stringflow - Bootstraping server with following configurations:
+2019-10-21 12:08:29,839 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ====================== System Properties =========================
+2019-10-21 12:08:29,839 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.server.jid:sf@alterbasics.com
+2019-10-21 12:08:29,839 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.packetcache.size:1000
+2019-10-21 12:08:29,840 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.password:M0neyMachine
+2019-10-21 12:08:29,840 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.url:jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-21 12:08:29,840 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.maximum.connection.count:10
+2019-10-21 12:08:29,840 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.xmpp.parser-provider:abs.ixi.util.xml.SwiftParserProvider
+2019-10-21 12:08:29,840 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.prefered.database:abs.ixi.server.etc.MySQL
+2019-10-21 12:08:29,840 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.username:remote
+2019-10-21 12:08:29,840 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.dbname:ixi
+2019-10-21 12:08:29,840 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - fcm.server.key:AIzaSyAlFaQJcBDeXeTF96F7BH8vqNTHivW85Ws
+2019-10-21 12:08:29,841 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.max.streamResumptionTimeInSeconds:300
+2019-10-21 12:08:29,841 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.watchdog.scheduling.interval.in.minutes:5
+2019-10-21 12:08:29,841 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.media.port:5444
+2019-10-21 12:08:29,841 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.length:3
+2019-10-21 12:08:29,841 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.driverClassName:com.mysql.jdbc.Driver
+2019-10-21 12:08:29,841 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.username:remote
+2019-10-21 12:08:29,841 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.url:mongodb://alterbasics.com:27017
+2019-10-21 12:08:29,841 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.passphrase:Stringflow123
+2019-10-21 12:08:29,841 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.file.path:C:\Users\Gudia\AppData\Roaming\Skype\My Skype Received Files\Certificates(1).p12
+2019-10-21 12:08:29,841 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.media.send.buffer.size:4096
+2019-10-21 12:08:29,842 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.password:M0neyMachine
+2019-10-21 12:08:29,842 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - media.store.path:D:/temp/
+2019-10-21 12:08:29,842 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.level:3
+2019-10-21 12:08:29,842 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.environment:DEV 
+2019-10-21 12:08:29,842 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.minimum.connection.count:3
+2019-10-21 12:08:29,842 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ==================== Stringflow Process Configrations ======================
+2019-10-21 12:08:29,842 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.core.component.load.filter:null
+2019-10-21 12:08:29,842 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.max.size:2
+2019-10-21 12:08:29,842 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.capacity:120000
+2019-10-21 12:08:29,843 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.keep.alive.minutes:5
+2019-10-21 12:08:29,843 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cluster.nodes:
+2019-10-21 12:08:29,843 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.max.size:5
+2019-10-21 12:08:29,843 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.port:5234
+2019-10-21 12:08:29,843 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.sasl.serverfactory:abs.ixi.server.sys.secure.sasl.SaslMechanismFactory
+2019-10-21 12:08:29,848 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.active:false
+2019-10-21 12:08:29,848 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.keep.alive.minutes:5
+2019-10-21 12:08:29,848 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.element.name.size:128
+2019-10-21 12:08:29,848 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.ioc.short-circuit:false
+2019-10-21 12:08:29,848 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.value.size:128
+2019-10-21 12:08:29,848 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.number.size:128
+2019-10-21 12:08:29,848 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.cdata.size:5120
+2019-10-21 12:08:29,848 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.type:DIRECT
+2019-10-21 12:08:29,848 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.keep.alive.minutes:5
+2019-10-21 12:08:29,848 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.active:false
+2019-10-21 12:08:29,848 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.count.limit:50
+2019-10-21 12:08:29,848 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.core.size:3
+2019-10-21 12:08:29,849 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store:abs.ixi.server.session.DefaultSessionStore
+2019-10-21 12:08:29,849 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.port:5240
+2019-10-21 12:08:29,849 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.tls:false
+2019-10-21 12:08:29,849 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.mode:single
+2019-10-21 12:08:29,849 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.size:4096
+2019-10-21 12:08:29,849 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.core.size:1
+2019-10-21 12:08:29,849 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store.type:internal
+2019-10-21 12:08:29,849 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.keep.alive.minutes:5
+2019-10-21 12:08:29,849 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.name.size:128
+2019-10-21 12:08:29,849 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session.watchdog.frequency:5
+2019-10-21 12:08:29,849 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.max.size:2
+2019-10-21 12:08:29,849 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.max.size:7
+2019-10-21 12:08:29,850 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.manage.control.port:9001
+2019-10-21 12:08:29,850 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.port:5222
+2019-10-21 12:08:29,850 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.core.size:3
+2019-10-21 12:08:29,850 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.core.size:1
+2019-10-21 12:08:29,850 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.active:true
+2019-10-21 12:08:29,850 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Platform native byte order LITTLE_ENDIAN 
+
+2019-10-21 12:08:29,862 [main] INFO  abs.ixi.server.sys.Bootstrap - internalizing string literals
+2019-10-21 12:08:29,864 [main] DEBUG abs.ixi.server.sys.Bootstrap - Internalizing XMPP Strings
+2019-10-21 12:08:29,864 [main] INFO  abs.ixi.server.sys.Bootstrap - Setting swift parser properties
+2019-10-21 12:08:29,864 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.count.limit has value 50
+2019-10-21 12:08:29,864 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.number.size has value 128
+2019-10-21 12:08:29,865 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.element.name.size has value 128
+2019-10-21 12:08:29,866 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.name.size has value 128
+2019-10-21 12:08:29,866 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.value.size has value 128
+2019-10-21 12:08:29,866 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.cdata.size has value 5120
+2019-10-21 12:08:29,869 [main] INFO  abs.ixi.server.sys.Bootstrap - OS Name: Windows 10
+2019-10-21 12:08:29,869 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Architecture: amd64
+2019-10-21 12:08:29,869 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Version: 10.0
+2019-10-21 12:08:29,869 [main] INFO  abs.ixi.server.sys.Bootstrap - Available Processors: 4
+2019-10-21 12:08:29,869 [main] INFO  abs.ixi.server.sys.Bootstrap - Free Memory: 118057248
+2019-10-21 12:08:29,870 [main] DEBUG abs.ixi.server.sys.Bootstrap - Max Memory: 1886912512
+2019-10-21 12:08:29,870 [main] INFO  abs.ixi.server.sys.Bootstrap - Total Memory: 128974848
+2019-10-21 12:08:29,870 [main] DEBUG abs.ixi.server.sys.Bootstrap - FileSystem: sun.nio.fs.WindowsFileSystem@2aaf7cc2
+2019-10-21 12:08:29,870 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.core.component.load.filter has value null
+2019-10-21 12:08:29,870 [main] INFO  abs.ixi.server.sys.CoreComponentLoader - Loading packet router
+2019-10-21 12:08:29,875 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key ixi.server.dbservice.packetcache.size has value 1000
+2019-10-21 12:08:29,878 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key ixi.server.dbservice.prefered.database has value abs.ixi.server.etc.MySQL
+2019-10-21 12:08:29,885 [main] INFO  abs.ixi.server.etc.PersistenceService - loaded database abs.ixi.server.etc.MySQL
+2019-10-21 12:08:29,885 [main] INFO  abs.ixi.server.etc.MySQL - Initilizing MySql Database...
+2019-10-21 12:08:29,899 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.url has value jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-21 12:08:29,900 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.driverClassName has value com.mysql.jdbc.Driver
+2019-10-21 12:08:29,901 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.username has value remote
+2019-10-21 12:08:29,901 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.password has value M0neyMachine
+2019-10-21 12:08:29,901 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.minimum.connection.count has value 3
+2019-10-21 12:08:29,901 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.maximum.connection.count has value 10
+2019-10-21 12:08:29,901 [main] INFO  abs.ixi.server.etc.MySQL - MySQL persistence has been initialized
+2019-10-21 12:08:29,904 [main] DEBUG abs.ixi.server.io.net.NetworkTransport - Acquiring buffer factory instance
+2019-10-21 12:08:29,905 [main] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Instantiating Cached buffer factory
+2019-10-21 12:08:29,906 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.buffer.size has value 4096
+2019-10-21 12:08:29,906 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.capacity has value 120000
+2019-10-21 12:08:29,906 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.buffer.type has value DIRECT
+2019-10-21 12:08:29,906 [main] INFO  abs.ixi.server.io.net.CachedBufferFactory - Buffer size : 4096 factory capacity : 120000 and BufferType : DIRECT
+2019-10-21 12:08:29,907 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.core.size has value 3
+2019-10-21 12:08:29,907 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.max.size has value 5
+2019-10-21 12:08:29,907 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.keep.alive.minutes has value 5
+2019-10-21 12:08:30,303 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.active has value true
+2019-10-21 12:08:30,306 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.port has value 5222
+2019-10-21 12:08:30,307 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_REUSEADDR
+2019-10-21 12:08:30,307 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : IP_TOS
+2019-10-21 12:08:30,307 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_RCVBUF
+2019-10-21 12:08:30,308 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_SNDBUF is not supported
+2019-10-21 12:08:30,308 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_KEEPALIVE is not supported
+2019-10-21 12:08:30,308 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option TCP_NODELAY is not supported
+2019-10-21 12:08:30,308 [main] INFO  abs.ixi.server.io.net.ServerChannelFactory - Binding server socket listener port 5222
+2019-10-21 12:08:30,383 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Instantiated XMPP Connection manager
+2019-10-21 12:08:30,383 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.bosh.active has value false
+2019-10-21 12:08:30,387 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.core.size has value 3
+2019-10-21 12:08:30,387 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.max.size has value 7
+2019-10-21 12:08:30,387 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.keep.alive.minutes has value 5
+2019-10-21 12:08:30,394 [main] INFO  abs.ixi.server.BasicComponent - Starting router server component
+2019-10-21 12:08:30,394 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component router
+2019-10-21 12:08:30,395 [main] INFO  abs.ixi.server.BasicComponent - Starting io-controller server component
+2019-10-21 12:08:30,397 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component io-controller
+2019-10-21 12:08:30,397 [main] INFO  abs.ixi.server.BasicComponent - Starting netTransport server component
+2019-10-21 12:08:30,398 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Starting connection managers
+2019-10-21 12:08:30,398 [main] INFO  abs.ixi.server.io.net.XMPPConnectionManager - Starting XMPP Connection Manager
+2019-10-21 12:08:30,398 [main] INFO  abs.ixi.server.io.net.ConnectionManager - Starting connection acceptor thread
+2019-10-21 12:08:30,398 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Started abs.ixi.server.io.net.XMPPConnectionManager@ae45eb6
+2019-10-21 12:08:30,398 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Starting channel event dispacther thread
+2019-10-21 12:08:30,398 [main] INFO  abs.ixi.server.BasicComponent - Starting disco server component
+2019-10-21 12:08:30,400 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component disco
+2019-10-21 12:08:30,401 [main] ERROR abs.ixi.server.sys.Bootstrap - Failed to start component abs.ixi.server.DiscoHandler@59f99ea
+2019-10-21 12:08:30,401 [Thread-5] INFO  abs.ixi.server.io.net.ConnectionManager - Waiting for connections...
+2019-10-21 12:08:30,401 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Starting Channel Event loop
+2019-10-21 12:08:30,404 [main] ERROR abs.ixi.server.Stringflow - Server startup failed
+java.lang.NullPointerException: null
+	at abs.ixi.server.Stringflow.getCoreComponentJid(Stringflow.java:192)
+	at abs.ixi.server.DiscoHandler.start(DiscoHandler.java:77)
+	at abs.ixi.server.sys.Bootstrap.startComponents(Bootstrap.java:149)
+	at abs.ixi.server.sys.Bootstrap.initiate(Bootstrap.java:78)
+	at abs.ixi.server.Stringflow.bootstrapServer(Stringflow.java:147)
+	at abs.ixi.server.Stringflow.main(Stringflow.java:82)
+2019-10-21 12:08:30,410 [Thread-0] INFO  abs.ixi.server.Stringflow - ************* Executing Server ShutdownHook ***************
+2019-10-21 12:08:36,586 [main] INFO  abs.ixi.server.Stringflow - Starting Stringflow process...
+2019-10-21 12:08:36,590 [main] INFO  abs.ixi.server.Stringflow - Loading server configurations
+2019-10-21 12:08:36,591 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading configurations from file: system.properties
+2019-10-21 12:08:36,598 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading config file process.properties
+2019-10-21 12:08:36,600 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.server.jid has value sf@alterbasics.com
+2019-10-21 12:08:36,600 [main] INFO  abs.ixi.server.Stringflow - Server has been registered in domain alterbasics.com
+2019-10-21 12:08:36,600 [main] DEBUG abs.ixi.server.Stringflow - Bootstraping server with following configurations:
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ====================== System Properties =========================
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.server.jid:sf@alterbasics.com
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.packetcache.size:1000
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.password:M0neyMachine
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.url:jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.maximum.connection.count:10
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.xmpp.parser-provider:abs.ixi.util.xml.SwiftParserProvider
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.prefered.database:abs.ixi.server.etc.MySQL
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.username:remote
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.dbname:ixi
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - fcm.server.key:AIzaSyAlFaQJcBDeXeTF96F7BH8vqNTHivW85Ws
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.max.streamResumptionTimeInSeconds:300
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.watchdog.scheduling.interval.in.minutes:5
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.media.port:5444
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.length:3
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.driverClassName:com.mysql.jdbc.Driver
+2019-10-21 12:08:36,602 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.username:remote
+2019-10-21 12:08:36,603 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.url:mongodb://alterbasics.com:27017
+2019-10-21 12:08:36,603 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.passphrase:Stringflow123
+2019-10-21 12:08:36,603 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.file.path:C:\Users\Gudia\AppData\Roaming\Skype\My Skype Received Files\Certificates(1).p12
+2019-10-21 12:08:36,603 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.media.send.buffer.size:4096
+2019-10-21 12:08:36,603 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.password:M0neyMachine
+2019-10-21 12:08:36,603 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - media.store.path:D:/temp/
+2019-10-21 12:08:36,603 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.level:3
+2019-10-21 12:08:36,604 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.environment:DEV 
+2019-10-21 12:08:36,610 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.minimum.connection.count:3
+2019-10-21 12:08:36,611 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ==================== Stringflow Process Configrations ======================
+2019-10-21 12:08:36,612 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.core.component.load.filter:null
+2019-10-21 12:08:36,612 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.max.size:2
+2019-10-21 12:08:36,613 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.capacity:120000
+2019-10-21 12:08:36,613 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.keep.alive.minutes:5
+2019-10-21 12:08:36,613 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cluster.nodes:
+2019-10-21 12:08:36,613 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.max.size:5
+2019-10-21 12:08:36,613 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.port:5234
+2019-10-21 12:08:36,613 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.sasl.serverfactory:abs.ixi.server.sys.secure.sasl.SaslMechanismFactory
+2019-10-21 12:08:36,619 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.active:false
+2019-10-21 12:08:36,619 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.keep.alive.minutes:5
+2019-10-21 12:08:36,620 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.element.name.size:128
+2019-10-21 12:08:36,620 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.ioc.short-circuit:false
+2019-10-21 12:08:36,620 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.value.size:128
+2019-10-21 12:08:36,620 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.number.size:128
+2019-10-21 12:08:36,620 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.cdata.size:5120
+2019-10-21 12:08:36,620 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.type:DIRECT
+2019-10-21 12:08:36,620 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.keep.alive.minutes:5
+2019-10-21 12:08:36,620 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.active:false
+2019-10-21 12:08:36,621 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.count.limit:50
+2019-10-21 12:08:36,621 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.core.size:3
+2019-10-21 12:08:36,621 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store:abs.ixi.server.session.DefaultSessionStore
+2019-10-21 12:08:36,621 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.port:5240
+2019-10-21 12:08:36,621 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.tls:false
+2019-10-21 12:08:36,621 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.mode:single
+2019-10-21 12:08:36,621 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.size:4096
+2019-10-21 12:08:36,621 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.core.size:1
+2019-10-21 12:08:36,621 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store.type:internal
+2019-10-21 12:08:36,621 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.keep.alive.minutes:5
+2019-10-21 12:08:36,622 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.name.size:128
+2019-10-21 12:08:36,622 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session.watchdog.frequency:5
+2019-10-21 12:08:36,622 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.max.size:2
+2019-10-21 12:08:36,622 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.max.size:7
+2019-10-21 12:08:36,622 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.manage.control.port:9001
+2019-10-21 12:08:36,622 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.port:5222
+2019-10-21 12:08:36,622 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.core.size:3
+2019-10-21 12:08:36,622 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.core.size:1
+2019-10-21 12:08:36,622 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.active:true
+2019-10-21 12:08:36,622 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Platform native byte order LITTLE_ENDIAN 
+
+2019-10-21 12:08:36,633 [main] INFO  abs.ixi.server.sys.Bootstrap - internalizing string literals
+2019-10-21 12:08:36,633 [main] DEBUG abs.ixi.server.sys.Bootstrap - Internalizing XMPP Strings
+2019-10-21 12:08:36,633 [main] INFO  abs.ixi.server.sys.Bootstrap - Setting swift parser properties
+2019-10-21 12:08:36,634 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.count.limit has value 50
+2019-10-21 12:08:36,634 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.number.size has value 128
+2019-10-21 12:08:36,634 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.element.name.size has value 128
+2019-10-21 12:08:36,634 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.name.size has value 128
+2019-10-21 12:08:36,634 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.value.size has value 128
+2019-10-21 12:08:36,635 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.cdata.size has value 5120
+2019-10-21 12:08:36,635 [main] INFO  abs.ixi.server.sys.Bootstrap - OS Name: Windows 10
+2019-10-21 12:08:36,635 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Architecture: amd64
+2019-10-21 12:08:36,635 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Version: 10.0
+2019-10-21 12:08:36,635 [main] INFO  abs.ixi.server.sys.Bootstrap - Available Processors: 4
+2019-10-21 12:08:36,635 [main] INFO  abs.ixi.server.sys.Bootstrap - Free Memory: 118056776
+2019-10-21 12:08:36,636 [main] DEBUG abs.ixi.server.sys.Bootstrap - Max Memory: 1886912512
+2019-10-21 12:08:36,636 [main] INFO  abs.ixi.server.sys.Bootstrap - Total Memory: 128974848
+2019-10-21 12:08:36,636 [main] DEBUG abs.ixi.server.sys.Bootstrap - FileSystem: sun.nio.fs.WindowsFileSystem@2aaf7cc2
+2019-10-21 12:08:36,636 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.core.component.load.filter has value null
+2019-10-21 12:08:36,636 [main] INFO  abs.ixi.server.sys.CoreComponentLoader - Loading packet router
+2019-10-21 12:08:36,638 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key ixi.server.dbservice.packetcache.size has value 1000
+2019-10-21 12:08:36,642 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key ixi.server.dbservice.prefered.database has value abs.ixi.server.etc.MySQL
+2019-10-21 12:08:36,647 [main] INFO  abs.ixi.server.etc.PersistenceService - loaded database abs.ixi.server.etc.MySQL
+2019-10-21 12:08:36,648 [main] INFO  abs.ixi.server.etc.MySQL - Initilizing MySql Database...
+2019-10-21 12:08:36,660 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.url has value jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-21 12:08:36,661 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.driverClassName has value com.mysql.jdbc.Driver
+2019-10-21 12:08:36,661 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.username has value remote
+2019-10-21 12:08:36,661 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.password has value M0neyMachine
+2019-10-21 12:08:36,661 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.minimum.connection.count has value 3
+2019-10-21 12:08:36,661 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.maximum.connection.count has value 10
+2019-10-21 12:08:36,661 [main] INFO  abs.ixi.server.etc.MySQL - MySQL persistence has been initialized
+2019-10-21 12:08:36,664 [main] DEBUG abs.ixi.server.io.net.NetworkTransport - Acquiring buffer factory instance
+2019-10-21 12:08:36,665 [main] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Instantiating Cached buffer factory
+2019-10-21 12:08:36,665 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.buffer.size has value 4096
+2019-10-21 12:08:36,666 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.capacity has value 120000
+2019-10-21 12:08:36,667 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.buffer.type has value DIRECT
+2019-10-21 12:08:36,667 [main] INFO  abs.ixi.server.io.net.CachedBufferFactory - Buffer size : 4096 factory capacity : 120000 and BufferType : DIRECT
+2019-10-21 12:08:36,667 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.core.size has value 3
+2019-10-21 12:08:36,667 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.max.size has value 5
+2019-10-21 12:08:36,668 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.keep.alive.minutes has value 5
+2019-10-21 12:08:37,084 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.active has value true
+2019-10-21 12:08:37,086 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.port has value 5222
+2019-10-21 12:08:37,088 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_REUSEADDR
+2019-10-21 12:08:37,088 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : IP_TOS
+2019-10-21 12:08:37,088 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_RCVBUF
+2019-10-21 12:08:37,088 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_SNDBUF is not supported
+2019-10-21 12:08:37,088 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_KEEPALIVE is not supported
+2019-10-21 12:08:37,089 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option TCP_NODELAY is not supported
+2019-10-21 12:08:37,089 [main] INFO  abs.ixi.server.io.net.ServerChannelFactory - Binding server socket listener port 5222
+2019-10-21 12:08:37,179 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Instantiated XMPP Connection manager
+2019-10-21 12:08:37,179 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.bosh.active has value false
+2019-10-21 12:08:37,183 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.core.size has value 3
+2019-10-21 12:08:37,184 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.max.size has value 7
+2019-10-21 12:08:37,184 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.keep.alive.minutes has value 5
+2019-10-21 12:08:37,191 [main] INFO  abs.ixi.server.BasicComponent - Starting router server component
+2019-10-21 12:08:37,192 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component router
+2019-10-21 12:08:37,193 [main] INFO  abs.ixi.server.BasicComponent - Starting io-controller server component
+2019-10-21 12:08:37,194 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component io-controller
+2019-10-21 12:08:37,194 [main] INFO  abs.ixi.server.BasicComponent - Starting netTransport server component
+2019-10-21 12:08:37,194 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Starting connection managers
+2019-10-21 12:08:37,195 [main] INFO  abs.ixi.server.io.net.XMPPConnectionManager - Starting XMPP Connection Manager
+2019-10-21 12:08:37,195 [main] INFO  abs.ixi.server.io.net.ConnectionManager - Starting connection acceptor thread
+2019-10-21 12:08:37,195 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Started abs.ixi.server.io.net.XMPPConnectionManager@ae45eb6
+2019-10-21 12:08:37,195 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Starting channel event dispacther thread
+2019-10-21 12:08:37,195 [main] INFO  abs.ixi.server.BasicComponent - Starting disco server component
+2019-10-21 12:08:37,195 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component disco
+2019-10-21 12:08:37,196 [main] ERROR abs.ixi.server.sys.Bootstrap - Failed to start component abs.ixi.server.DiscoHandler@59f99ea
+2019-10-21 12:08:37,197 [Thread-5] INFO  abs.ixi.server.io.net.ConnectionManager - Waiting for connections...
+2019-10-21 12:08:37,197 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Starting Channel Event loop
+2019-10-21 12:08:37,198 [main] ERROR abs.ixi.server.Stringflow - Server startup failed
+java.lang.NullPointerException: null
+	at abs.ixi.server.Stringflow.getCoreComponentJid(Stringflow.java:192)
+	at abs.ixi.server.DiscoHandler.start(DiscoHandler.java:77)
+	at abs.ixi.server.sys.Bootstrap.startComponents(Bootstrap.java:149)
+	at abs.ixi.server.sys.Bootstrap.initiate(Bootstrap.java:78)
+	at abs.ixi.server.Stringflow.bootstrapServer(Stringflow.java:147)
+	at abs.ixi.server.Stringflow.main(Stringflow.java:82)
+2019-10-21 12:08:37,199 [Thread-0] INFO  abs.ixi.server.Stringflow - ************* Executing Server ShutdownHook ***************
+2019-10-21 12:10:07,549 [main] INFO  abs.ixi.server.Stringflow - Starting Stringflow process...
+2019-10-21 12:10:07,552 [main] INFO  abs.ixi.server.Stringflow - Loading server configurations
+2019-10-21 12:10:07,553 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading configurations from file: system.properties
+2019-10-21 12:10:07,557 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading config file process.properties
+2019-10-21 12:10:07,559 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.server.jid has value sf@alterbasics.com
+2019-10-21 12:10:07,560 [main] INFO  abs.ixi.server.Stringflow - Server has been registered in domain alterbasics.com
+2019-10-21 12:10:07,560 [main] DEBUG abs.ixi.server.Stringflow - Bootstraping server with following configurations:
+2019-10-21 12:10:07,560 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ====================== System Properties =========================
+2019-10-21 12:10:07,561 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.server.jid:sf@alterbasics.com
+2019-10-21 12:10:07,561 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.packetcache.size:1000
+2019-10-21 12:10:07,561 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.password:M0neyMachine
+2019-10-21 12:10:07,561 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.url:jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-21 12:10:07,561 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.maximum.connection.count:10
+2019-10-21 12:10:07,561 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.xmpp.parser-provider:abs.ixi.util.xml.SwiftParserProvider
+2019-10-21 12:10:07,561 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.prefered.database:abs.ixi.server.etc.MySQL
+2019-10-21 12:10:07,561 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.username:remote
+2019-10-21 12:10:07,561 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.dbname:ixi
+2019-10-21 12:10:07,561 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - fcm.server.key:AIzaSyAlFaQJcBDeXeTF96F7BH8vqNTHivW85Ws
+2019-10-21 12:10:07,562 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.max.streamResumptionTimeInSeconds:300
+2019-10-21 12:10:07,562 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.watchdog.scheduling.interval.in.minutes:5
+2019-10-21 12:10:07,562 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.media.port:5444
+2019-10-21 12:10:07,562 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.length:3
+2019-10-21 12:10:07,563 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.driverClassName:com.mysql.jdbc.Driver
+2019-10-21 12:10:07,563 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.username:remote
+2019-10-21 12:10:07,563 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.url:mongodb://alterbasics.com:27017
+2019-10-21 12:10:07,563 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.passphrase:Stringflow123
+2019-10-21 12:10:07,563 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.file.path:C:\Users\Gudia\AppData\Roaming\Skype\My Skype Received Files\Certificates(1).p12
+2019-10-21 12:10:07,563 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.media.send.buffer.size:4096
+2019-10-21 12:10:07,563 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.password:M0neyMachine
+2019-10-21 12:10:07,563 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - media.store.path:D:/temp/
+2019-10-21 12:10:07,563 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.level:3
+2019-10-21 12:10:07,564 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.environment:DEV 
+2019-10-21 12:10:07,564 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.minimum.connection.count:3
+2019-10-21 12:10:07,564 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ==================== Stringflow Process Configrations ======================
+2019-10-21 12:10:07,564 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.core.component.load.filter:null
+2019-10-21 12:10:07,564 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.max.size:2
+2019-10-21 12:10:07,564 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.capacity:120000
+2019-10-21 12:10:07,564 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.keep.alive.minutes:5
+2019-10-21 12:10:07,565 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cluster.nodes:
+2019-10-21 12:10:07,565 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.max.size:5
+2019-10-21 12:10:07,565 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.port:5234
+2019-10-21 12:10:07,565 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.sasl.serverfactory:abs.ixi.server.sys.secure.sasl.SaslMechanismFactory
+2019-10-21 12:10:07,572 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.active:false
+2019-10-21 12:10:07,572 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.keep.alive.minutes:5
+2019-10-21 12:10:07,572 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.element.name.size:128
+2019-10-21 12:10:07,572 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.ioc.short-circuit:false
+2019-10-21 12:10:07,572 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.value.size:128
+2019-10-21 12:10:07,572 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.number.size:128
+2019-10-21 12:10:07,572 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.cdata.size:5120
+2019-10-21 12:10:07,572 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.type:DIRECT
+2019-10-21 12:10:07,573 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.keep.alive.minutes:5
+2019-10-21 12:10:07,573 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.active:false
+2019-10-21 12:10:07,573 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.count.limit:50
+2019-10-21 12:10:07,573 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.core.size:3
+2019-10-21 12:10:07,573 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store:abs.ixi.server.session.DefaultSessionStore
+2019-10-21 12:10:07,573 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.port:5240
+2019-10-21 12:10:07,573 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.tls:false
+2019-10-21 12:10:07,573 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.mode:single
+2019-10-21 12:10:07,573 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.size:4096
+2019-10-21 12:10:07,573 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.core.size:1
+2019-10-21 12:10:07,573 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store.type:internal
+2019-10-21 12:10:07,573 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.keep.alive.minutes:5
+2019-10-21 12:10:07,574 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.name.size:128
+2019-10-21 12:10:07,574 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session.watchdog.frequency:5
+2019-10-21 12:10:07,574 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.max.size:2
+2019-10-21 12:10:07,574 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.max.size:7
+2019-10-21 12:10:07,574 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.manage.control.port:9001
+2019-10-21 12:10:07,574 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.port:5222
+2019-10-21 12:10:07,574 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.core.size:3
+2019-10-21 12:10:07,574 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.core.size:1
+2019-10-21 12:10:07,574 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.active:true
+2019-10-21 12:10:07,574 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Platform native byte order LITTLE_ENDIAN 
+
+2019-10-21 12:10:07,585 [main] INFO  abs.ixi.server.sys.Bootstrap - internalizing string literals
+2019-10-21 12:10:07,586 [main] DEBUG abs.ixi.server.sys.Bootstrap - Internalizing XMPP Strings
+2019-10-21 12:10:07,586 [main] INFO  abs.ixi.server.sys.Bootstrap - Setting swift parser properties
+2019-10-21 12:10:07,586 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.count.limit has value 50
+2019-10-21 12:10:07,586 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.number.size has value 128
+2019-10-21 12:10:07,586 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.element.name.size has value 128
+2019-10-21 12:10:07,586 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.name.size has value 128
+2019-10-21 12:10:07,586 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.value.size has value 128
+2019-10-21 12:10:07,587 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.cdata.size has value 5120
+2019-10-21 12:10:07,588 [main] INFO  abs.ixi.server.sys.Bootstrap - OS Name: Windows 10
+2019-10-21 12:10:07,589 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Architecture: amd64
+2019-10-21 12:10:07,589 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Version: 10.0
+2019-10-21 12:10:07,589 [main] INFO  abs.ixi.server.sys.Bootstrap - Available Processors: 4
+2019-10-21 12:10:07,589 [main] INFO  abs.ixi.server.sys.Bootstrap - Free Memory: 118057384
+2019-10-21 12:10:07,589 [main] DEBUG abs.ixi.server.sys.Bootstrap - Max Memory: 1886912512
+2019-10-21 12:10:07,589 [main] INFO  abs.ixi.server.sys.Bootstrap - Total Memory: 128974848
+2019-10-21 12:10:07,589 [main] DEBUG abs.ixi.server.sys.Bootstrap - FileSystem: sun.nio.fs.WindowsFileSystem@2aaf7cc2
+2019-10-21 12:10:07,589 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.core.component.load.filter has value null
+2019-10-21 12:10:07,590 [main] INFO  abs.ixi.server.sys.CoreComponentLoader - Loading packet router
+2019-10-21 12:10:07,594 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key ixi.server.dbservice.packetcache.size has value 1000
+2019-10-21 12:10:07,596 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key ixi.server.dbservice.prefered.database has value abs.ixi.server.etc.MySQL
+2019-10-21 12:10:07,601 [main] INFO  abs.ixi.server.etc.PersistenceService - loaded database abs.ixi.server.etc.MySQL
+2019-10-21 12:10:07,601 [main] INFO  abs.ixi.server.etc.MySQL - Initilizing MySql Database...
+2019-10-21 12:10:07,613 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.url has value jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-21 12:10:07,617 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.driverClassName has value com.mysql.jdbc.Driver
+2019-10-21 12:10:07,618 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.username has value remote
+2019-10-21 12:10:07,625 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.password has value M0neyMachine
+2019-10-21 12:10:07,625 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.minimum.connection.count has value 3
+2019-10-21 12:10:07,626 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.maximum.connection.count has value 10
+2019-10-21 12:10:07,627 [main] INFO  abs.ixi.server.etc.MySQL - MySQL persistence has been initialized
+2019-10-21 12:10:07,645 [main] DEBUG abs.ixi.server.io.net.NetworkTransport - Acquiring buffer factory instance
+2019-10-21 12:10:07,651 [main] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Instantiating Cached buffer factory
+2019-10-21 12:10:07,652 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.buffer.size has value 4096
+2019-10-21 12:10:07,653 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.capacity has value 120000
+2019-10-21 12:10:07,654 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.buffer.type has value DIRECT
+2019-10-21 12:10:07,654 [main] INFO  abs.ixi.server.io.net.CachedBufferFactory - Buffer size : 4096 factory capacity : 120000 and BufferType : DIRECT
+2019-10-21 12:10:07,654 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.core.size has value 3
+2019-10-21 12:10:07,655 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.max.size has value 5
+2019-10-21 12:10:07,655 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.keep.alive.minutes has value 5
+2019-10-21 12:10:08,094 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.active has value true
+2019-10-21 12:10:08,096 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.port has value 5222
+2019-10-21 12:10:08,099 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_REUSEADDR
+2019-10-21 12:10:08,099 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : IP_TOS
+2019-10-21 12:10:08,099 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_RCVBUF
+2019-10-21 12:10:08,099 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_SNDBUF is not supported
+2019-10-21 12:10:08,099 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_KEEPALIVE is not supported
+2019-10-21 12:10:08,099 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option TCP_NODELAY is not supported
+2019-10-21 12:10:08,099 [main] INFO  abs.ixi.server.io.net.ServerChannelFactory - Binding server socket listener port 5222
+2019-10-21 12:10:08,167 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Instantiated XMPP Connection manager
+2019-10-21 12:10:08,167 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.bosh.active has value false
+2019-10-21 12:10:08,171 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.core.size has value 3
+2019-10-21 12:10:08,171 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.max.size has value 7
+2019-10-21 12:10:08,171 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.keep.alive.minutes has value 5
+2019-10-21 12:10:08,177 [main] INFO  abs.ixi.server.BasicComponent - Starting router server component
+2019-10-21 12:10:08,178 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component router
+2019-10-21 12:10:08,180 [main] INFO  abs.ixi.server.BasicComponent - Starting io-controller server component
+2019-10-21 12:10:08,183 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component io-controller
+2019-10-21 12:10:08,184 [main] INFO  abs.ixi.server.BasicComponent - Starting netTransport server component
+2019-10-21 12:10:08,185 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Starting connection managers
+2019-10-21 12:10:08,185 [main] INFO  abs.ixi.server.io.net.XMPPConnectionManager - Starting XMPP Connection Manager
+2019-10-21 12:10:08,185 [main] INFO  abs.ixi.server.io.net.ConnectionManager - Starting connection acceptor thread
+2019-10-21 12:10:08,186 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Started abs.ixi.server.io.net.XMPPConnectionManager@ae45eb6
+2019-10-21 12:10:08,186 [Thread-5] INFO  abs.ixi.server.io.net.ConnectionManager - Waiting for connections...
+2019-10-21 12:10:08,186 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Starting channel event dispacther thread
+2019-10-21 12:10:08,187 [main] INFO  abs.ixi.server.BasicComponent - Starting disco server component
+2019-10-21 12:10:08,187 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Starting Channel Event loop
+2019-10-21 12:10:08,187 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component disco
+2019-10-21 12:10:08,188 [main] ERROR abs.ixi.server.sys.Bootstrap - Failed to start component abs.ixi.server.DiscoHandler@59f99ea
+2019-10-21 12:10:08,189 [main] ERROR abs.ixi.server.Stringflow - Server startup failed
+java.lang.NullPointerException: null
+	at abs.ixi.server.Stringflow.getCoreComponentJid(Stringflow.java:192)
+	at abs.ixi.server.DiscoHandler.start(DiscoHandler.java:77)
+	at abs.ixi.server.sys.Bootstrap.startComponents(Bootstrap.java:149)
+	at abs.ixi.server.sys.Bootstrap.initiate(Bootstrap.java:78)
+	at abs.ixi.server.Stringflow.bootstrapServer(Stringflow.java:147)
+	at abs.ixi.server.Stringflow.main(Stringflow.java:82)
+2019-10-21 12:10:08,190 [Thread-0] INFO  abs.ixi.server.Stringflow - ************* Executing Server ShutdownHook ***************
+2019-10-21 13:40:21,794 [main] INFO  abs.ixi.server.Stringflow - Starting Stringflow process...
+2019-10-21 13:40:21,850 [main] INFO  abs.ixi.server.Stringflow - Loading server configurations
+2019-10-21 13:40:21,852 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading configurations from file: system.properties
+2019-10-21 13:40:21,859 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading config file process.properties
+2019-10-21 13:40:21,862 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.server.jid has value sf@alterbasics.com
+2019-10-21 13:40:21,863 [main] INFO  abs.ixi.server.Stringflow - Server has been registered in domain alterbasics.com
+2019-10-21 13:40:21,863 [main] DEBUG abs.ixi.server.Stringflow - Bootstraping server with following configurations:
+2019-10-21 13:40:21,864 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ====================== System Properties =========================
+2019-10-21 13:40:21,864 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.server.jid:sf@alterbasics.com
+2019-10-21 13:40:21,864 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.packetcache.size:1000
+2019-10-21 13:40:21,865 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.password:M0neyMachine
+2019-10-21 13:40:21,865 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.url:jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-21 13:40:21,866 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.maximum.connection.count:10
+2019-10-21 13:40:21,866 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.xmpp.parser-provider:abs.ixi.util.xml.SwiftParserProvider
+2019-10-21 13:40:21,866 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.prefered.database:abs.ixi.server.etc.MySQL
+2019-10-21 13:40:21,867 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.username:remote
+2019-10-21 13:40:21,867 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.dbname:ixi
+2019-10-21 13:40:21,868 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - fcm.server.key:AIzaSyAlFaQJcBDeXeTF96F7BH8vqNTHivW85Ws
+2019-10-21 13:40:21,868 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.max.streamResumptionTimeInSeconds:300
+2019-10-21 13:40:21,868 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.watchdog.scheduling.interval.in.minutes:5
+2019-10-21 13:40:21,868 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.media.port:5444
+2019-10-21 13:40:21,869 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.length:3
+2019-10-21 13:40:21,869 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.driverClassName:com.mysql.jdbc.Driver
+2019-10-21 13:40:21,869 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.username:remote
+2019-10-21 13:40:21,869 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.url:mongodb://alterbasics.com:27017
+2019-10-21 13:40:21,869 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.passphrase:Stringflow123
+2019-10-21 13:40:21,869 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.file.path:C:\Users\Gudia\AppData\Roaming\Skype\My Skype Received Files\Certificates(1).p12
+2019-10-21 13:40:21,870 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.media.send.buffer.size:4096
+2019-10-21 13:40:21,870 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.password:M0neyMachine
+2019-10-21 13:40:21,870 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - media.store.path:D:/temp/
+2019-10-21 13:40:21,870 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.level:3
+2019-10-21 13:40:21,870 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.environment:DEV 
+2019-10-21 13:40:21,871 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.minimum.connection.count:3
+2019-10-21 13:40:21,871 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ==================== Stringflow Process Configrations ======================
+2019-10-21 13:40:21,872 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.core.component.load.filter:null
+2019-10-21 13:40:21,873 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.max.size:2
+2019-10-21 13:40:21,873 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.capacity:120000
+2019-10-21 13:40:21,873 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.keep.alive.minutes:5
+2019-10-21 13:40:21,873 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cluster.nodes:
+2019-10-21 13:40:21,873 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.max.size:5
+2019-10-21 13:40:21,873 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.port:5234
+2019-10-21 13:40:21,873 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.sasl.serverfactory:abs.ixi.server.sys.secure.sasl.SaslMechanismFactory
+2019-10-21 13:40:21,874 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.active:false
+2019-10-21 13:40:21,875 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.keep.alive.minutes:5
+2019-10-21 13:40:21,875 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.element.name.size:128
+2019-10-21 13:40:21,875 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.ioc.short-circuit:false
+2019-10-21 13:40:21,875 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.value.size:128
+2019-10-21 13:40:21,875 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.number.size:128
+2019-10-21 13:40:21,875 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.cdata.size:5120
+2019-10-21 13:40:21,875 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.type:DIRECT
+2019-10-21 13:40:21,875 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.keep.alive.minutes:5
+2019-10-21 13:40:21,876 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.active:false
+2019-10-21 13:40:21,876 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.count.limit:50
+2019-10-21 13:40:21,877 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.core.size:3
+2019-10-21 13:40:21,877 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store:abs.ixi.server.session.DefaultSessionStore
+2019-10-21 13:40:21,877 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.port:5240
+2019-10-21 13:40:21,877 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.tls:false
+2019-10-21 13:40:21,878 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.mode:single
+2019-10-21 13:40:21,878 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.size:4096
+2019-10-21 13:40:21,878 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.core.size:1
+2019-10-21 13:40:21,878 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store.type:internal
+2019-10-21 13:40:21,878 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.keep.alive.minutes:5
+2019-10-21 13:40:21,879 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.name.size:128
+2019-10-21 13:40:21,879 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session.watchdog.frequency:5
+2019-10-21 13:40:21,880 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.max.size:2
+2019-10-21 13:40:21,880 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.max.size:7
+2019-10-21 13:40:21,880 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.manage.control.port:9001
+2019-10-21 13:40:21,880 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.port:5222
+2019-10-21 13:40:21,880 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.core.size:3
+2019-10-21 13:40:21,880 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.core.size:1
+2019-10-21 13:40:21,880 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.active:true
+2019-10-21 13:40:21,881 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Platform native byte order LITTLE_ENDIAN 
+
+2019-10-21 13:40:21,911 [main] INFO  abs.ixi.server.sys.Bootstrap - internalizing string literals
+2019-10-21 13:40:21,911 [main] DEBUG abs.ixi.server.sys.Bootstrap - Internalizing XMPP Strings
+2019-10-21 13:40:21,911 [main] INFO  abs.ixi.server.sys.Bootstrap - Setting swift parser properties
+2019-10-21 13:40:21,912 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.count.limit has value 50
+2019-10-21 13:40:21,912 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.number.size has value 128
+2019-10-21 13:40:21,912 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.element.name.size has value 128
+2019-10-21 13:40:21,913 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.name.size has value 128
+2019-10-21 13:40:21,913 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.value.size has value 128
+2019-10-21 13:40:21,913 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.cdata.size has value 5120
+2019-10-21 13:40:21,915 [main] INFO  abs.ixi.server.sys.Bootstrap - OS Name: Windows 10
+2019-10-21 13:40:21,916 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Architecture: amd64
+2019-10-21 13:40:21,916 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Version: 10.0
+2019-10-21 13:40:21,916 [main] INFO  abs.ixi.server.sys.Bootstrap - Available Processors: 4
+2019-10-21 13:40:21,916 [main] INFO  abs.ixi.server.sys.Bootstrap - Free Memory: 118040144
+2019-10-21 13:40:21,916 [main] DEBUG abs.ixi.server.sys.Bootstrap - Max Memory: 1886912512
+2019-10-21 13:40:21,917 [main] INFO  abs.ixi.server.sys.Bootstrap - Total Memory: 128974848
+2019-10-21 13:40:21,917 [main] DEBUG abs.ixi.server.sys.Bootstrap - FileSystem: sun.nio.fs.WindowsFileSystem@2aaf7cc2
+2019-10-21 13:40:21,917 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.core.component.load.filter has value null
+2019-10-21 13:40:21,917 [main] INFO  abs.ixi.server.sys.CoreComponentLoader - Loading packet router
+2019-10-21 13:40:21,927 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key ixi.server.dbservice.packetcache.size has value 1000
+2019-10-21 13:40:21,932 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key ixi.server.dbservice.prefered.database has value abs.ixi.server.etc.MySQL
+2019-10-21 13:40:21,943 [main] INFO  abs.ixi.server.etc.PersistenceService - loaded database abs.ixi.server.etc.MySQL
+2019-10-21 13:40:21,943 [main] INFO  abs.ixi.server.etc.MySQL - Initilizing MySql Database...
+2019-10-21 13:40:21,959 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.url has value jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-21 13:40:21,959 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.driverClassName has value com.mysql.jdbc.Driver
+2019-10-21 13:40:21,959 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.username has value remote
+2019-10-21 13:40:21,959 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.password has value M0neyMachine
+2019-10-21 13:40:21,959 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.minimum.connection.count has value 3
+2019-10-21 13:40:21,959 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.maximum.connection.count has value 10
+2019-10-21 13:40:21,960 [main] INFO  abs.ixi.server.etc.MySQL - MySQL persistence has been initialized
+2019-10-21 13:40:21,966 [main] DEBUG abs.ixi.server.io.net.NetworkTransport - Acquiring buffer factory instance
+2019-10-21 13:40:21,969 [main] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Instantiating Cached buffer factory
+2019-10-21 13:40:21,975 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.buffer.size has value 4096
+2019-10-21 13:40:21,975 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.capacity has value 120000
+2019-10-21 13:40:21,977 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.buffer.type has value DIRECT
+2019-10-21 13:40:21,978 [main] INFO  abs.ixi.server.io.net.CachedBufferFactory - Buffer size : 4096 factory capacity : 120000 and BufferType : DIRECT
+2019-10-21 13:40:21,978 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.core.size has value 3
+2019-10-21 13:40:21,978 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.max.size has value 5
+2019-10-21 13:40:21,978 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.keep.alive.minutes has value 5
+2019-10-21 13:40:22,393 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.active has value true
+2019-10-21 13:40:22,398 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.port has value 5222
+2019-10-21 13:40:22,403 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_REUSEADDR
+2019-10-21 13:40:22,403 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : IP_TOS
+2019-10-21 13:40:22,403 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_RCVBUF
+2019-10-21 13:40:22,403 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_SNDBUF is not supported
+2019-10-21 13:40:22,403 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_KEEPALIVE is not supported
+2019-10-21 13:40:22,403 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option TCP_NODELAY is not supported
+2019-10-21 13:40:22,403 [main] INFO  abs.ixi.server.io.net.ServerChannelFactory - Binding server socket listener port 5222
+2019-10-21 13:40:22,498 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Instantiated XMPP Connection manager
+2019-10-21 13:40:22,498 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.bosh.active has value false
+2019-10-21 13:40:22,508 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.core.size has value 3
+2019-10-21 13:40:22,508 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.max.size has value 7
+2019-10-21 13:40:22,508 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.keep.alive.minutes has value 5
+2019-10-21 13:40:22,520 [main] INFO  abs.ixi.server.BasicComponent - Starting router server component
+2019-10-21 13:40:22,523 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component router
+2019-10-21 13:40:22,525 [main] INFO  abs.ixi.server.BasicComponent - Starting io-controller server component
+2019-10-21 13:40:22,525 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component io-controller
+2019-10-21 13:40:22,526 [main] INFO  abs.ixi.server.BasicComponent - Starting netTransport server component
+2019-10-21 13:40:22,526 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Starting connection managers
+2019-10-21 13:40:22,526 [main] INFO  abs.ixi.server.io.net.XMPPConnectionManager - Starting XMPP Connection Manager
+2019-10-21 13:40:22,526 [main] INFO  abs.ixi.server.io.net.ConnectionManager - Starting connection acceptor thread
+2019-10-21 13:40:22,526 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Started abs.ixi.server.io.net.XMPPConnectionManager@ae45eb6
+2019-10-21 13:40:22,526 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Starting channel event dispacther thread
+2019-10-21 13:40:22,526 [Thread-5] INFO  abs.ixi.server.io.net.ConnectionManager - Waiting for connections...
+2019-10-21 13:40:22,526 [main] INFO  abs.ixi.server.BasicComponent - Starting disco server component
+2019-10-21 13:40:22,527 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component disco
+2019-10-21 13:40:22,527 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Starting Channel Event loop
+2019-10-21 13:40:22,527 [main] ERROR abs.ixi.server.sys.Bootstrap - Failed to start component abs.ixi.server.DiscoHandler@59f99ea
+2019-10-21 13:40:22,531 [main] ERROR abs.ixi.server.Stringflow - Server startup failed
+java.lang.NullPointerException: null
+	at abs.ixi.server.Stringflow.getCoreComponentJid(Stringflow.java:192)
+	at abs.ixi.server.DiscoHandler.start(DiscoHandler.java:77)
+	at abs.ixi.server.sys.Bootstrap.startComponents(Bootstrap.java:149)
+	at abs.ixi.server.sys.Bootstrap.initiate(Bootstrap.java:78)
+	at abs.ixi.server.Stringflow.bootstrapServer(Stringflow.java:147)
+	at abs.ixi.server.Stringflow.main(Stringflow.java:82)
+2019-10-21 13:40:22,534 [Thread-0] INFO  abs.ixi.server.Stringflow - ************* Executing Server ShutdownHook ***************
+2019-10-21 14:52:10,567 [main] INFO  abs.ixi.server.Stringflow - Starting Stringflow process...
+2019-10-21 14:52:10,570 [main] INFO  abs.ixi.server.Stringflow - Loading server configurations
+2019-10-21 14:52:10,572 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading configurations from file: system.properties
+2019-10-21 14:52:10,578 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading config file process.properties
+2019-10-21 14:52:10,580 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.server.jid has value sf@alterbasics.com
+2019-10-21 14:52:10,581 [main] INFO  abs.ixi.server.Stringflow - Server has been registered in domain alterbasics.com
+2019-10-21 14:52:10,581 [main] DEBUG abs.ixi.server.Stringflow - Bootstraping server with following configurations:
+2019-10-21 14:52:10,581 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ====================== System Properties =========================
+2019-10-21 14:52:10,581 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.server.jid:sf@alterbasics.com
+2019-10-21 14:52:10,581 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.packetcache.size:1000
+2019-10-21 14:52:10,581 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.password:M0neyMachine
+2019-10-21 14:52:10,581 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.url:jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-21 14:52:10,581 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.maximum.connection.count:10
+2019-10-21 14:52:10,581 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.xmpp.parser-provider:abs.ixi.util.xml.SwiftParserProvider
+2019-10-21 14:52:10,581 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.prefered.database:abs.ixi.server.etc.MySQL
+2019-10-21 14:52:10,582 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.username:remote
+2019-10-21 14:52:10,582 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.dbname:ixi
+2019-10-21 14:52:10,582 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - fcm.server.key:AIzaSyAlFaQJcBDeXeTF96F7BH8vqNTHivW85Ws
+2019-10-21 14:52:10,582 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.max.streamResumptionTimeInSeconds:300
+2019-10-21 14:52:10,582 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.watchdog.scheduling.interval.in.minutes:5
+2019-10-21 14:52:10,582 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.media.port:5444
+2019-10-21 14:52:10,582 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.length:3
+2019-10-21 14:52:10,582 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.driverClassName:com.mysql.jdbc.Driver
+2019-10-21 14:52:10,582 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.username:remote
+2019-10-21 14:52:10,582 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.url:mongodb://alterbasics.com:27017
+2019-10-21 14:52:10,582 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.passphrase:Stringflow123
+2019-10-21 14:52:10,583 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.file.path:C:\Users\Gudia\AppData\Roaming\Skype\My Skype Received Files\Certificates(1).p12
+2019-10-21 14:52:10,583 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.media.send.buffer.size:4096
+2019-10-21 14:52:10,583 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.password:M0neyMachine
+2019-10-21 14:52:10,583 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - media.store.path:D:/temp/
+2019-10-21 14:52:10,583 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.level:3
+2019-10-21 14:52:10,583 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.environment:DEV 
+2019-10-21 14:52:10,584 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.minimum.connection.count:3
+2019-10-21 14:52:10,584 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ==================== Stringflow Process Configrations ======================
+2019-10-21 14:52:10,584 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.core.component.load.filter:null
+2019-10-21 14:52:10,584 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.max.size:2
+2019-10-21 14:52:10,584 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.capacity:120000
+2019-10-21 14:52:10,584 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.keep.alive.minutes:5
+2019-10-21 14:52:10,584 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cluster.nodes:
+2019-10-21 14:52:10,584 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.max.size:5
+2019-10-21 14:52:10,584 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.port:5234
+2019-10-21 14:52:10,584 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.sasl.serverfactory:abs.ixi.server.sys.secure.sasl.SaslMechanismFactory
+2019-10-21 14:52:10,590 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.active:false
+2019-10-21 14:52:10,590 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.keep.alive.minutes:5
+2019-10-21 14:52:10,590 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.element.name.size:128
+2019-10-21 14:52:10,590 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.ioc.short-circuit:false
+2019-10-21 14:52:10,591 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.value.size:128
+2019-10-21 14:52:10,591 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.number.size:128
+2019-10-21 14:52:10,591 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.cdata.size:5120
+2019-10-21 14:52:10,591 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.type:DIRECT
+2019-10-21 14:52:10,591 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.keep.alive.minutes:5
+2019-10-21 14:52:10,592 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.active:false
+2019-10-21 14:52:10,592 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.count.limit:50
+2019-10-21 14:52:10,592 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.core.size:3
+2019-10-21 14:52:10,592 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store:abs.ixi.server.session.DefaultSessionStore
+2019-10-21 14:52:10,592 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.port:5240
+2019-10-21 14:52:10,592 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.tls:false
+2019-10-21 14:52:10,592 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.mode:single
+2019-10-21 14:52:10,592 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.size:4096
+2019-10-21 14:52:10,593 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.core.size:1
+2019-10-21 14:52:10,593 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store.type:internal
+2019-10-21 14:52:10,593 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.keep.alive.minutes:5
+2019-10-21 14:52:10,593 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.name.size:128
+2019-10-21 14:52:10,593 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session.watchdog.frequency:5
+2019-10-21 14:52:10,594 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.max.size:2
+2019-10-21 14:52:10,594 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.max.size:7
+2019-10-21 14:52:10,594 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.manage.control.port:9001
+2019-10-21 14:52:10,594 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.port:5222
+2019-10-21 14:52:10,594 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.core.size:3
+2019-10-21 14:52:10,594 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.core.size:1
+2019-10-21 14:52:10,594 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.active:true
+2019-10-21 14:52:10,594 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Platform native byte order LITTLE_ENDIAN 
+
+2019-10-21 14:52:10,614 [main] INFO  abs.ixi.server.sys.Bootstrap - internalizing string literals
+2019-10-21 14:52:10,615 [main] DEBUG abs.ixi.server.sys.Bootstrap - Internalizing XMPP Strings
+2019-10-21 14:52:10,615 [main] INFO  abs.ixi.server.sys.Bootstrap - Setting swift parser properties
+2019-10-21 14:52:10,615 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.count.limit has value 50
+2019-10-21 14:52:10,615 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.number.size has value 128
+2019-10-21 14:52:10,615 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.element.name.size has value 128
+2019-10-21 14:52:10,615 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.name.size has value 128
+2019-10-21 14:52:10,615 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.value.size has value 128
+2019-10-21 14:52:10,615 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.cdata.size has value 5120
+2019-10-21 14:52:10,617 [main] INFO  abs.ixi.server.sys.Bootstrap - OS Name: Windows 10
+2019-10-21 14:52:10,617 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Architecture: amd64
+2019-10-21 14:52:10,617 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Version: 10.0
+2019-10-21 14:52:10,617 [main] INFO  abs.ixi.server.sys.Bootstrap - Available Processors: 4
+2019-10-21 14:52:10,617 [main] INFO  abs.ixi.server.sys.Bootstrap - Free Memory: 118061280
+2019-10-21 14:52:10,617 [main] DEBUG abs.ixi.server.sys.Bootstrap - Max Memory: 1886912512
+2019-10-21 14:52:10,617 [main] INFO  abs.ixi.server.sys.Bootstrap - Total Memory: 128974848
+2019-10-21 14:52:10,617 [main] DEBUG abs.ixi.server.sys.Bootstrap - FileSystem: sun.nio.fs.WindowsFileSystem@2aaf7cc2
+2019-10-21 14:52:10,617 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.core.component.load.filter has value null
+2019-10-21 14:52:10,617 [main] INFO  abs.ixi.server.sys.CoreComponentLoader - Loading packet router
+2019-10-21 14:52:10,622 [main] ERROR abs.ixi.server.Stringflow - Bootstrap process is not complete; server runtime is unavailable
+2019-10-21 14:52:10,624 [main] ERROR abs.ixi.server.etc.PersistenceService - Failed to load DbService
+abs.ixi.server.sys.RuntimeUnavailableException: null
+	at abs.ixi.server.Stringflow.runtime(Stringflow.java:87)
+	at abs.ixi.server.etc.PersistenceService.<init>(PersistenceService.java:79)
+	at abs.ixi.server.etc.PersistenceService.getInstance(PersistenceService.java:108)
+	at abs.ixi.server.ConsumerComponent.<init>(ConsumerComponent.java:42)
+	at abs.ixi.server.router.PacketRouter.<init>(PacketRouter.java:42)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at abs.ixi.server.sys.CoreComponentLoader.loadPacketRouter(CoreComponentLoader.java:130)
+	at abs.ixi.server.sys.CoreComponentLoader.load(CoreComponentLoader.java:81)
+	at abs.ixi.server.sys.Bootstrap.loadServerComponents(Bootstrap.java:93)
+	at abs.ixi.server.sys.Bootstrap.initiate(Bootstrap.java:80)
+	at abs.ixi.server.Stringflow.bootstrapServer(Stringflow.java:181)
+	at abs.ixi.server.Stringflow.main(Stringflow.java:99)
+2019-10-21 14:52:10,625 [main] ERROR abs.ixi.server.sys.CoreComponentLoader - Failed to load packet router
+2019-10-21 14:52:10,625 [main] ERROR abs.ixi.server.Stringflow - Server startup failed
+abs.ixi.server.sys.ComponentLoadingException: Failed to load packet router
+	at abs.ixi.server.sys.CoreComponentLoader.loadPacketRouter(CoreComponentLoader.java:135)
+	at abs.ixi.server.sys.CoreComponentLoader.load(CoreComponentLoader.java:81)
+	at abs.ixi.server.sys.Bootstrap.loadServerComponents(Bootstrap.java:93)
+	at abs.ixi.server.sys.Bootstrap.initiate(Bootstrap.java:80)
+	at abs.ixi.server.Stringflow.bootstrapServer(Stringflow.java:181)
+	at abs.ixi.server.Stringflow.main(Stringflow.java:99)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at abs.ixi.server.sys.CoreComponentLoader.loadPacketRouter(CoreComponentLoader.java:130)
+	... 5 common frames omitted
+Caused by: abs.ixi.server.common.InstantiationException: abs.ixi.server.sys.RuntimeUnavailableException
+	at abs.ixi.server.etc.PersistenceService.<init>(PersistenceService.java:100)
+	at abs.ixi.server.etc.PersistenceService.getInstance(PersistenceService.java:108)
+	at abs.ixi.server.ConsumerComponent.<init>(ConsumerComponent.java:42)
+	at abs.ixi.server.router.PacketRouter.<init>(PacketRouter.java:42)
+	... 10 common frames omitted
+Caused by: abs.ixi.server.sys.RuntimeUnavailableException: null
+	at abs.ixi.server.Stringflow.runtime(Stringflow.java:87)
+	at abs.ixi.server.etc.PersistenceService.<init>(PersistenceService.java:79)
+	... 13 common frames omitted
+2019-10-21 14:52:10,625 [Thread-0] INFO  abs.ixi.server.Stringflow - ************* Executing Server ShutdownHook ***************
+2019-10-21 14:54:47,273 [main] INFO  abs.ixi.server.Stringflow - Starting Stringflow process...
+2019-10-21 14:54:47,276 [main] INFO  abs.ixi.server.Stringflow - Loading server configurations
+2019-10-21 14:54:47,277 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading configurations from file: system.properties
+2019-10-21 14:54:47,280 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading config file process.properties
+2019-10-21 14:54:47,282 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.server.jid has value sf@alterbasics.com
+2019-10-21 14:54:47,283 [main] INFO  abs.ixi.server.Stringflow - Server has been registered in domain alterbasics.com
+2019-10-21 14:54:47,283 [main] DEBUG abs.ixi.server.Stringflow - Bootstraping server with following configurations:
+2019-10-21 14:54:47,283 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ====================== System Properties =========================
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.server.jid:sf@alterbasics.com
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.packetcache.size:1000
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.password:M0neyMachine
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.url:jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.maximum.connection.count:10
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.xmpp.parser-provider:abs.ixi.util.xml.SwiftParserProvider
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.prefered.database:abs.ixi.server.etc.MySQL
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.username:remote
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.dbname:ixi
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - fcm.server.key:AIzaSyAlFaQJcBDeXeTF96F7BH8vqNTHivW85Ws
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.max.streamResumptionTimeInSeconds:300
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.watchdog.scheduling.interval.in.minutes:5
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.media.port:5444
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.length:3
+2019-10-21 14:54:47,284 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.driverClassName:com.mysql.jdbc.Driver
+2019-10-21 14:54:47,285 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.username:remote
+2019-10-21 14:54:47,285 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.url:mongodb://alterbasics.com:27017
+2019-10-21 14:54:47,285 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.passphrase:Stringflow123
+2019-10-21 14:54:47,285 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.file.path:C:\Users\Gudia\AppData\Roaming\Skype\My Skype Received Files\Certificates(1).p12
+2019-10-21 14:54:47,285 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.media.send.buffer.size:4096
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.password:M0neyMachine
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - media.store.path:D:/temp/
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.level:3
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.environment:DEV 
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.minimum.connection.count:3
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ==================== Stringflow Process Configrations ======================
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.core.component.load.filter:null
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.max.size:2
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.capacity:120000
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.keep.alive.minutes:5
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cluster.nodes:
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.max.size:5
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.port:5234
+2019-10-21 14:54:47,286 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.sasl.serverfactory:abs.ixi.server.sys.secure.sasl.SaslMechanismFactory
+2019-10-21 14:54:47,292 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.active:false
+2019-10-21 14:54:47,293 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.keep.alive.minutes:5
+2019-10-21 14:54:47,293 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.element.name.size:128
+2019-10-21 14:54:47,293 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.ioc.short-circuit:false
+2019-10-21 14:54:47,293 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.value.size:128
+2019-10-21 14:54:47,293 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.number.size:128
+2019-10-21 14:54:47,293 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.cdata.size:5120
+2019-10-21 14:54:47,293 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.type:DIRECT
+2019-10-21 14:54:47,293 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.keep.alive.minutes:5
+2019-10-21 14:54:47,293 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.active:false
+2019-10-21 14:54:47,293 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.count.limit:50
+2019-10-21 14:54:47,293 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.core.size:3
+2019-10-21 14:54:47,294 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store:abs.ixi.server.session.DefaultSessionStore
+2019-10-21 14:54:47,295 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.port:5240
+2019-10-21 14:54:47,295 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.tls:false
+2019-10-21 14:54:47,296 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.mode:single
+2019-10-21 14:54:47,296 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.size:4096
+2019-10-21 14:54:47,296 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.core.size:1
+2019-10-21 14:54:47,297 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store.type:internal
+2019-10-21 14:54:47,297 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.keep.alive.minutes:5
+2019-10-21 14:54:47,297 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.name.size:128
+2019-10-21 14:54:47,297 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session.watchdog.frequency:5
+2019-10-21 14:54:47,297 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.max.size:2
+2019-10-21 14:54:47,297 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.max.size:7
+2019-10-21 14:54:47,297 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.manage.control.port:9001
+2019-10-21 14:54:47,297 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.port:5222
+2019-10-21 14:54:47,297 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.core.size:3
+2019-10-21 14:54:47,297 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.core.size:1
+2019-10-21 14:54:47,297 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.active:true
+2019-10-21 14:54:47,297 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Platform native byte order LITTLE_ENDIAN 
+
+2019-10-21 14:54:47,310 [main] INFO  abs.ixi.server.sys.Bootstrap - internalizing string literals
+2019-10-21 14:54:47,310 [main] DEBUG abs.ixi.server.sys.Bootstrap - Internalizing XMPP Strings
+2019-10-21 14:54:47,310 [main] INFO  abs.ixi.server.sys.Bootstrap - Setting swift parser properties
+2019-10-21 14:54:47,310 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.count.limit has value 50
+2019-10-21 14:54:47,310 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.number.size has value 128
+2019-10-21 14:54:47,310 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.element.name.size has value 128
+2019-10-21 14:54:47,311 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.name.size has value 128
+2019-10-21 14:54:47,311 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.value.size has value 128
+2019-10-21 14:54:47,311 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.cdata.size has value 5120
+2019-10-21 14:54:47,311 [main] INFO  abs.ixi.server.sys.Bootstrap - OS Name: Windows 10
+2019-10-21 14:54:47,312 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Architecture: amd64
+2019-10-21 14:54:47,312 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Version: 10.0
+2019-10-21 14:54:47,312 [main] INFO  abs.ixi.server.sys.Bootstrap - Available Processors: 4
+2019-10-21 14:54:47,312 [main] INFO  abs.ixi.server.sys.Bootstrap - Free Memory: 118059576
+2019-10-21 14:54:47,312 [main] DEBUG abs.ixi.server.sys.Bootstrap - Max Memory: 1886912512
+2019-10-21 14:54:47,312 [main] INFO  abs.ixi.server.sys.Bootstrap - Total Memory: 128974848
+2019-10-21 14:54:47,312 [main] DEBUG abs.ixi.server.sys.Bootstrap - FileSystem: sun.nio.fs.WindowsFileSystem@2aaf7cc2
+2019-10-21 14:54:47,312 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.core.component.load.filter has value null
+2019-10-21 14:54:47,312 [main] INFO  abs.ixi.server.sys.CoreComponentLoader - Loading packet router
+2019-10-21 14:54:47,318 [main] DEBUG abs.ixi.server.io.net.NetworkTransport - Acquiring buffer factory instance
+2019-10-21 14:54:47,319 [main] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Instantiating Cached buffer factory
+2019-10-21 14:54:47,319 [main] ERROR abs.ixi.server.Stringflow - Bootstrap process is not complete; server runtime is unavailable
+2019-10-21 14:54:47,319 [main] ERROR abs.ixi.server.sys.CoreComponentLoader - Failed to load core server component
+2019-10-21 14:54:47,321 [main] ERROR abs.ixi.server.Stringflow - Server startup failed
+abs.ixi.server.sys.ComponentLoadingException: Failed to load core server component
+	at abs.ixi.server.sys.CoreComponentLoader.load(CoreComponentLoader.java:116)
+	at abs.ixi.server.sys.Bootstrap.loadServerComponents(Bootstrap.java:93)
+	at abs.ixi.server.sys.Bootstrap.initiate(Bootstrap.java:80)
+	at abs.ixi.server.Stringflow.bootstrapServer(Stringflow.java:181)
+	at abs.ixi.server.Stringflow.main(Stringflow.java:99)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at abs.ixi.server.sys.CoreComponentLoader.load(CoreComponentLoader.java:108)
+	... 4 common frames omitted
+Caused by: abs.ixi.server.sys.RuntimeUnavailableException: null
+	at abs.ixi.server.Stringflow.runtime(Stringflow.java:87)
+	at abs.ixi.server.io.net.CachedBufferFactory.getInstance(CachedBufferFactory.java:86)
+	at abs.ixi.server.io.net.NetworkTransport.instantiateBufferFactory(NetworkTransport.java:124)
+	at abs.ixi.server.io.net.NetworkTransport.<init>(NetworkTransport.java:77)
+	... 9 common frames omitted
+2019-10-21 14:54:47,324 [Thread-0] INFO  abs.ixi.server.Stringflow - ************* Executing Server ShutdownHook ***************
+2019-10-21 14:56:17,323 [main] INFO  abs.ixi.server.Stringflow - Starting Stringflow process...
+2019-10-21 14:56:17,329 [main] INFO  abs.ixi.server.Stringflow - Loading server configurations
+2019-10-21 14:56:17,332 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading configurations from file: system.properties
+2019-10-21 14:56:17,338 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading config file process.properties
+2019-10-21 14:56:17,340 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.server.jid has value sf@alterbasics.com
+2019-10-21 14:56:17,340 [main] INFO  abs.ixi.server.Stringflow - Server has been registered in domain alterbasics.com
+2019-10-21 14:56:17,340 [main] DEBUG abs.ixi.server.Stringflow - Bootstraping server with following configurations:
+2019-10-21 14:56:17,340 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ====================== System Properties =========================
+2019-10-21 14:56:17,340 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.server.jid:sf@alterbasics.com
+2019-10-21 14:56:17,340 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.packetcache.size:1000
+2019-10-21 14:56:17,340 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.password:M0neyMachine
+2019-10-21 14:56:17,340 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.url:jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-21 14:56:17,341 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.maximum.connection.count:10
+2019-10-21 14:56:17,341 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.xmpp.parser-provider:abs.ixi.util.xml.SwiftParserProvider
+2019-10-21 14:56:17,341 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.prefered.database:abs.ixi.server.etc.MySQL
+2019-10-21 14:56:17,341 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.username:remote
+2019-10-21 14:56:17,341 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.dbname:ixi
+2019-10-21 14:56:17,341 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - fcm.server.key:AIzaSyAlFaQJcBDeXeTF96F7BH8vqNTHivW85Ws
+2019-10-21 14:56:17,341 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.max.streamResumptionTimeInSeconds:300
+2019-10-21 14:56:17,341 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.watchdog.scheduling.interval.in.minutes:5
+2019-10-21 14:56:17,341 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.media.port:5444
+2019-10-21 14:56:17,341 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.length:3
+2019-10-21 14:56:17,342 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.driverClassName:com.mysql.jdbc.Driver
+2019-10-21 14:56:17,342 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.username:remote
+2019-10-21 14:56:17,342 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.url:mongodb://alterbasics.com:27017
+2019-10-21 14:56:17,342 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.passphrase:Stringflow123
+2019-10-21 14:56:17,342 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.file.path:C:\Users\Gudia\AppData\Roaming\Skype\My Skype Received Files\Certificates(1).p12
+2019-10-21 14:56:17,342 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.media.send.buffer.size:4096
+2019-10-21 14:56:17,342 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.password:M0neyMachine
+2019-10-21 14:56:17,343 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - media.store.path:D:/temp/
+2019-10-21 14:56:17,343 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.level:3
+2019-10-21 14:56:17,343 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.environment:DEV 
+2019-10-21 14:56:17,343 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.minimum.connection.count:3
+2019-10-21 14:56:17,343 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ==================== Stringflow Process Configrations ======================
+2019-10-21 14:56:17,343 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.core.component.load.filter:null
+2019-10-21 14:56:17,343 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.max.size:2
+2019-10-21 14:56:17,343 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.capacity:120000
+2019-10-21 14:56:17,343 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.keep.alive.minutes:5
+2019-10-21 14:56:17,343 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cluster.nodes:
+2019-10-21 14:56:17,343 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.max.size:5
+2019-10-21 14:56:17,344 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.port:5234
+2019-10-21 14:56:17,344 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.sasl.serverfactory:abs.ixi.server.sys.secure.sasl.SaslMechanismFactory
+2019-10-21 14:56:17,350 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.active:false
+2019-10-21 14:56:17,351 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.keep.alive.minutes:5
+2019-10-21 14:56:17,351 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.element.name.size:128
+2019-10-21 14:56:17,351 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.ioc.short-circuit:false
+2019-10-21 14:56:17,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.value.size:128
+2019-10-21 14:56:17,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.number.size:128
+2019-10-21 14:56:17,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.cdata.size:5120
+2019-10-21 14:56:17,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.type:DIRECT
+2019-10-21 14:56:17,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.keep.alive.minutes:5
+2019-10-21 14:56:17,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.active:false
+2019-10-21 14:56:17,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.count.limit:50
+2019-10-21 14:56:17,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.core.size:3
+2019-10-21 14:56:17,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store:abs.ixi.server.session.DefaultSessionStore
+2019-10-21 14:56:17,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.port:5240
+2019-10-21 14:56:17,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.tls:false
+2019-10-21 14:56:17,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.mode:single
+2019-10-21 14:56:17,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.size:4096
+2019-10-21 14:56:17,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.core.size:1
+2019-10-21 14:56:17,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store.type:internal
+2019-10-21 14:56:17,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.keep.alive.minutes:5
+2019-10-21 14:56:17,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.name.size:128
+2019-10-21 14:56:17,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session.watchdog.frequency:5
+2019-10-21 14:56:17,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.max.size:2
+2019-10-21 14:56:17,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.max.size:7
+2019-10-21 14:56:17,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.manage.control.port:9001
+2019-10-21 14:56:17,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.port:5222
+2019-10-21 14:56:17,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.core.size:3
+2019-10-21 14:56:17,355 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.core.size:1
+2019-10-21 14:56:17,355 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.active:true
+2019-10-21 14:56:17,355 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Platform native byte order LITTLE_ENDIAN 
+
+2019-10-21 14:56:17,374 [main] INFO  abs.ixi.server.sys.Bootstrap - internalizing string literals
+2019-10-21 14:56:17,374 [main] DEBUG abs.ixi.server.sys.Bootstrap - Internalizing XMPP Strings
+2019-10-21 14:56:17,374 [main] INFO  abs.ixi.server.sys.Bootstrap - Setting swift parser properties
+2019-10-21 14:56:17,374 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.count.limit has value 50
+2019-10-21 14:56:17,374 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.number.size has value 128
+2019-10-21 14:56:17,374 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.element.name.size has value 128
+2019-10-21 14:56:17,374 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.name.size has value 128
+2019-10-21 14:56:17,374 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.value.size has value 128
+2019-10-21 14:56:17,374 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.cdata.size has value 5120
+2019-10-21 14:56:17,376 [main] INFO  abs.ixi.server.sys.Bootstrap - OS Name: Windows 10
+2019-10-21 14:56:17,376 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Architecture: amd64
+2019-10-21 14:56:17,376 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Version: 10.0
+2019-10-21 14:56:17,376 [main] INFO  abs.ixi.server.sys.Bootstrap - Available Processors: 4
+2019-10-21 14:56:17,376 [main] INFO  abs.ixi.server.sys.Bootstrap - Free Memory: 118059616
+2019-10-21 14:56:17,377 [main] DEBUG abs.ixi.server.sys.Bootstrap - Max Memory: 1886912512
+2019-10-21 14:56:17,377 [main] INFO  abs.ixi.server.sys.Bootstrap - Total Memory: 128974848
+2019-10-21 14:56:17,377 [main] DEBUG abs.ixi.server.sys.Bootstrap - FileSystem: sun.nio.fs.WindowsFileSystem@2aaf7cc2
+2019-10-21 14:56:17,377 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.core.component.load.filter has value null
+2019-10-21 14:56:17,378 [main] INFO  abs.ixi.server.sys.CoreComponentLoader - Loading packet router
+2019-10-21 14:56:17,385 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.core.size has value 3
+2019-10-21 14:56:17,386 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.max.size has value 5
+2019-10-21 14:56:17,386 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.keep.alive.minutes has value 5
+2019-10-21 14:56:17,712 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.active has value true
+2019-10-21 14:56:17,715 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.port has value 5222
+2019-10-21 14:56:17,720 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : IP_TOS
+2019-10-21 14:56:17,720 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_RCVBUF
+2019-10-21 14:56:17,720 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_REUSEADDR
+2019-10-21 14:56:17,720 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_SNDBUF is not supported
+2019-10-21 14:56:17,720 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_KEEPALIVE is not supported
+2019-10-21 14:56:17,720 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option TCP_NODELAY is not supported
+2019-10-21 14:56:17,720 [main] INFO  abs.ixi.server.io.net.ServerChannelFactory - Binding server socket listener port 5222
+2019-10-21 14:56:17,785 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Instantiated XMPP Connection manager
+2019-10-21 14:56:17,786 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.bosh.active has value false
+2019-10-21 14:56:17,792 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.core.size has value 3
+2019-10-21 14:56:17,792 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.max.size has value 7
+2019-10-21 14:56:17,792 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.keep.alive.minutes has value 5
+2019-10-21 14:56:17,800 [main] INFO  abs.ixi.server.Stringflow - =================== Loaded Server Components ====================
+2019-10-21 14:56:17,800 [main] INFO  abs.ixi.server.Stringflow - router : abs.ixi.server.router.PacketRouter@1593948d
+2019-10-21 14:56:17,800 [main] INFO  abs.ixi.server.Stringflow - io-controller : abs.ixi.server.io.IOController@1b604f19
+2019-10-21 14:56:17,800 [main] INFO  abs.ixi.server.Stringflow - netTransport : abs.ixi.server.io.net.NetworkTransport@7823a2f9
+2019-10-21 14:56:17,801 [main] INFO  abs.ixi.server.Stringflow - disco : abs.ixi.server.DiscoHandler@4cc0edeb
+2019-10-21 14:56:17,801 [main] INFO  abs.ixi.server.Stringflow - presence-manager : abs.ixi.server.session.PresenceManager@457e2f02
+2019-10-21 14:56:17,801 [main] INFO  abs.ixi.server.Stringflow - MUC : abs.ixi.server.muc.MultiUserChatHandler@5c7fa833
+2019-10-21 14:56:17,801 [main] INFO  abs.ixi.server.Stringflow - ================================================================
+2019-10-21 14:56:17,801 [main] INFO  abs.ixi.server.BasicComponent - Starting router server component
+2019-10-21 14:56:17,801 [main] ERROR abs.ixi.server.Stringflow - Bootstrap process is not complete; server runtime is unavailable
+2019-10-21 14:56:17,801 [main] ERROR abs.ixi.server.Stringflow - Failed to start component abs.ixi.server.router.PacketRouter@1593948d
+2019-10-21 14:56:17,803 [main] ERROR abs.ixi.server.Stringflow - Server startup failed
+abs.ixi.server.sys.RuntimeUnavailableException: null
+	at abs.ixi.server.Stringflow.runtime(Stringflow.java:87)
+	at abs.ixi.server.BasicComponent.start(BasicComponent.java:59)
+	at abs.ixi.server.ConsumerComponent.start(ConsumerComponent.java:46)
+	at abs.ixi.server.router.PacketRouter.start(PacketRouter.java:48)
+	at abs.ixi.server.Stringflow.startComponents(Stringflow.java:120)
+	at abs.ixi.server.Stringflow.main(Stringflow.java:101)
+2019-10-21 14:56:17,805 [Thread-0] INFO  abs.ixi.server.Stringflow - ************* Executing Server ShutdownHook ***************
+2019-10-21 14:57:03,886 [main] INFO  abs.ixi.server.Stringflow - Starting Stringflow process...
+2019-10-21 14:57:03,889 [main] INFO  abs.ixi.server.Stringflow - Loading server configurations
+2019-10-21 14:57:03,890 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading configurations from file: system.properties
+2019-10-21 14:57:03,895 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading config file process.properties
+2019-10-21 14:57:03,897 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.server.jid has value sf@alterbasics.com
+2019-10-21 14:57:03,898 [main] INFO  abs.ixi.server.Stringflow - Server has been registered in domain alterbasics.com
+2019-10-21 14:57:03,899 [main] DEBUG abs.ixi.server.Stringflow - Bootstraping server with following configurations:
+2019-10-21 14:57:03,900 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ====================== System Properties =========================
+2019-10-21 14:57:03,900 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.server.jid:sf@alterbasics.com
+2019-10-21 14:57:03,901 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.packetcache.size:1000
+2019-10-21 14:57:03,903 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.password:M0neyMachine
+2019-10-21 14:57:03,906 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.url:jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-21 14:57:03,907 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.maximum.connection.count:10
+2019-10-21 14:57:03,910 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.xmpp.parser-provider:abs.ixi.util.xml.SwiftParserProvider
+2019-10-21 14:57:03,911 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.prefered.database:abs.ixi.server.etc.MySQL
+2019-10-21 14:57:03,912 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.username:remote
+2019-10-21 14:57:03,912 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.dbname:ixi
+2019-10-21 14:57:03,912 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - fcm.server.key:AIzaSyAlFaQJcBDeXeTF96F7BH8vqNTHivW85Ws
+2019-10-21 14:57:03,913 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.max.streamResumptionTimeInSeconds:300
+2019-10-21 14:57:03,913 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.watchdog.scheduling.interval.in.minutes:5
+2019-10-21 14:57:03,913 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.media.port:5444
+2019-10-21 14:57:03,913 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.length:3
+2019-10-21 14:57:03,913 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.driverClassName:com.mysql.jdbc.Driver
+2019-10-21 14:57:03,913 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.username:remote
+2019-10-21 14:57:03,914 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.url:mongodb://alterbasics.com:27017
+2019-10-21 14:57:03,914 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.passphrase:Stringflow123
+2019-10-21 14:57:03,914 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.file.path:C:\Users\Gudia\AppData\Roaming\Skype\My Skype Received Files\Certificates(1).p12
+2019-10-21 14:57:03,914 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.media.send.buffer.size:4096
+2019-10-21 14:57:03,914 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.password:M0neyMachine
+2019-10-21 14:57:03,915 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - media.store.path:D:/temp/
+2019-10-21 14:57:03,915 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.level:3
+2019-10-21 14:57:03,915 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.environment:DEV 
+2019-10-21 14:57:03,915 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.minimum.connection.count:3
+2019-10-21 14:57:03,915 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ==================== Stringflow Process Configrations ======================
+2019-10-21 14:57:03,915 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.core.component.load.filter:null
+2019-10-21 14:57:03,915 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.max.size:2
+2019-10-21 14:57:03,915 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.capacity:120000
+2019-10-21 14:57:03,916 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.keep.alive.minutes:5
+2019-10-21 14:57:03,916 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cluster.nodes:
+2019-10-21 14:57:03,916 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.max.size:5
+2019-10-21 14:57:03,916 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.port:5234
+2019-10-21 14:57:03,916 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.sasl.serverfactory:abs.ixi.server.sys.secure.sasl.SaslMechanismFactory
+2019-10-21 14:57:03,916 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.active:false
+2019-10-21 14:57:03,916 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.keep.alive.minutes:5
+2019-10-21 14:57:03,917 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.element.name.size:128
+2019-10-21 14:57:03,917 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.ioc.short-circuit:false
+2019-10-21 14:57:03,917 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.value.size:128
+2019-10-21 14:57:03,917 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.number.size:128
+2019-10-21 14:57:03,917 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.cdata.size:5120
+2019-10-21 14:57:03,917 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.type:DIRECT
+2019-10-21 14:57:03,917 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.keep.alive.minutes:5
+2019-10-21 14:57:03,917 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.active:false
+2019-10-21 14:57:03,918 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.count.limit:50
+2019-10-21 14:57:03,918 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.core.size:3
+2019-10-21 14:57:03,918 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store:abs.ixi.server.session.DefaultSessionStore
+2019-10-21 14:57:03,918 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.port:5240
+2019-10-21 14:57:03,918 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.tls:false
+2019-10-21 14:57:03,918 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.mode:single
+2019-10-21 14:57:03,919 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.size:4096
+2019-10-21 14:57:03,919 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.core.size:1
+2019-10-21 14:57:03,919 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store.type:internal
+2019-10-21 14:57:03,919 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.keep.alive.minutes:5
+2019-10-21 14:57:03,919 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.name.size:128
+2019-10-21 14:57:03,919 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session.watchdog.frequency:5
+2019-10-21 14:57:03,920 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.max.size:2
+2019-10-21 14:57:03,920 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.max.size:7
+2019-10-21 14:57:03,920 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.manage.control.port:9001
+2019-10-21 14:57:03,920 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.port:5222
+2019-10-21 14:57:03,920 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.core.size:3
+2019-10-21 14:57:03,921 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.core.size:1
+2019-10-21 14:57:03,921 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.active:true
+2019-10-21 14:57:03,921 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Platform native byte order LITTLE_ENDIAN 
+
+2019-10-21 14:57:03,931 [main] INFO  abs.ixi.server.sys.Bootstrap - internalizing string literals
+2019-10-21 14:57:03,932 [main] DEBUG abs.ixi.server.sys.Bootstrap - Internalizing XMPP Strings
+2019-10-21 14:57:03,932 [main] INFO  abs.ixi.server.sys.Bootstrap - Setting swift parser properties
+2019-10-21 14:57:03,933 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.count.limit has value 50
+2019-10-21 14:57:03,933 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.number.size has value 128
+2019-10-21 14:57:03,933 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.element.name.size has value 128
+2019-10-21 14:57:03,933 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.name.size has value 128
+2019-10-21 14:57:03,934 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.value.size has value 128
+2019-10-21 14:57:03,934 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.cdata.size has value 5120
+2019-10-21 14:57:03,934 [main] INFO  abs.ixi.server.sys.Bootstrap - OS Name: Windows 10
+2019-10-21 14:57:03,934 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Architecture: amd64
+2019-10-21 14:57:03,934 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Version: 10.0
+2019-10-21 14:57:03,935 [main] INFO  abs.ixi.server.sys.Bootstrap - Available Processors: 4
+2019-10-21 14:57:03,935 [main] INFO  abs.ixi.server.sys.Bootstrap - Free Memory: 118061352
+2019-10-21 14:57:03,935 [main] DEBUG abs.ixi.server.sys.Bootstrap - Max Memory: 1886912512
+2019-10-21 14:57:03,935 [main] INFO  abs.ixi.server.sys.Bootstrap - Total Memory: 128974848
+2019-10-21 14:57:03,935 [main] DEBUG abs.ixi.server.sys.Bootstrap - FileSystem: sun.nio.fs.WindowsFileSystem@2aaf7cc2
+2019-10-21 14:57:03,935 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.core.component.load.filter has value null
+2019-10-21 14:57:03,935 [main] INFO  abs.ixi.server.sys.CoreComponentLoader - Loading packet router
+2019-10-21 14:57:03,940 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.core.size has value 3
+2019-10-21 14:57:03,941 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.max.size has value 5
+2019-10-21 14:57:03,941 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.keep.alive.minutes has value 5
+2019-10-21 14:57:04,299 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.active has value true
+2019-10-21 14:57:04,301 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.port has value 5222
+2019-10-21 14:57:04,304 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : IP_TOS
+2019-10-21 14:57:04,304 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_RCVBUF
+2019-10-21 14:57:04,304 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_REUSEADDR
+2019-10-21 14:57:04,304 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_SNDBUF is not supported
+2019-10-21 14:57:04,309 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_KEEPALIVE is not supported
+2019-10-21 14:57:04,310 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option TCP_NODELAY is not supported
+2019-10-21 14:57:04,310 [main] INFO  abs.ixi.server.io.net.ServerChannelFactory - Binding server socket listener port 5222
+2019-10-21 14:57:04,365 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Instantiated XMPP Connection manager
+2019-10-21 14:57:04,365 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.bosh.active has value false
+2019-10-21 14:57:04,369 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.core.size has value 3
+2019-10-21 14:57:04,369 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.max.size has value 7
+2019-10-21 14:57:04,369 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.keep.alive.minutes has value 5
+2019-10-21 14:57:04,374 [main] INFO  abs.ixi.server.Stringflow - =================== Loaded Server Components ====================
+2019-10-21 14:57:04,374 [main] INFO  abs.ixi.server.Stringflow - router : abs.ixi.server.router.PacketRouter@1593948d
+2019-10-21 14:57:04,374 [main] INFO  abs.ixi.server.Stringflow - io-controller : abs.ixi.server.io.IOController@1b604f19
+2019-10-21 14:57:04,375 [main] INFO  abs.ixi.server.Stringflow - netTransport : abs.ixi.server.io.net.NetworkTransport@7823a2f9
+2019-10-21 14:57:04,375 [main] INFO  abs.ixi.server.Stringflow - disco : abs.ixi.server.DiscoHandler@4cc0edeb
+2019-10-21 14:57:04,375 [main] INFO  abs.ixi.server.Stringflow - presence-manager : abs.ixi.server.session.PresenceManager@457e2f02
+2019-10-21 14:57:04,376 [main] INFO  abs.ixi.server.Stringflow - MUC : abs.ixi.server.muc.MultiUserChatHandler@5c7fa833
+2019-10-21 14:57:04,376 [main] INFO  abs.ixi.server.Stringflow - ================================================================
+2019-10-21 14:57:04,376 [main] INFO  abs.ixi.server.BasicComponent - Starting router server component
+2019-10-21 14:57:04,377 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key ixi.server.dbservice.packetcache.size has value 1000
+2019-10-21 14:57:04,378 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key ixi.server.dbservice.prefered.database has value abs.ixi.server.etc.MySQL
+2019-10-21 14:57:04,387 [main] INFO  abs.ixi.server.etc.PersistenceService - loaded database abs.ixi.server.etc.MySQL
+2019-10-21 14:57:04,387 [main] INFO  abs.ixi.server.etc.MySQL - Initilizing MySql Database...
+2019-10-21 14:57:04,402 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.url has value jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-21 14:57:04,403 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.driverClassName has value com.mysql.jdbc.Driver
+2019-10-21 14:57:04,403 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.username has value remote
+2019-10-21 14:57:04,403 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.password has value M0neyMachine
+2019-10-21 14:57:04,403 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.minimum.connection.count has value 3
+2019-10-21 14:57:04,403 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.maximum.connection.count has value 10
+2019-10-21 14:57:04,403 [main] INFO  abs.ixi.server.etc.MySQL - MySQL persistence has been initialized
+2019-10-21 14:57:04,407 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component router
+2019-10-21 14:57:04,411 [main] INFO  abs.ixi.server.BasicComponent - Starting io-controller server component
+2019-10-21 14:57:04,411 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component io-controller
+2019-10-21 14:57:04,411 [main] INFO  abs.ixi.server.BasicComponent - Starting netTransport server component
+2019-10-21 14:57:04,411 [main] DEBUG abs.ixi.server.io.net.NetworkTransport - Acquiring buffer factory instance
+2019-10-21 14:57:04,413 [main] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Instantiating Cached buffer factory
+2019-10-21 14:57:04,414 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.buffer.size has value 4096
+2019-10-21 14:57:04,414 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.capacity has value 120000
+2019-10-21 14:57:04,416 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.buffer.type has value DIRECT
+2019-10-21 14:57:04,417 [main] INFO  abs.ixi.server.io.net.CachedBufferFactory - Buffer size : 4096 factory capacity : 120000 and BufferType : DIRECT
+2019-10-21 14:57:04,417 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Starting connection managers
+2019-10-21 14:57:04,417 [main] INFO  abs.ixi.server.io.net.XMPPConnectionManager - Starting XMPP Connection Manager
+2019-10-21 14:57:04,417 [main] INFO  abs.ixi.server.io.net.ConnectionManager - Starting connection acceptor thread
+2019-10-21 14:57:04,418 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Started abs.ixi.server.io.net.XMPPConnectionManager@66a3ffec
+2019-10-21 14:57:04,418 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Starting channel event dispacther thread
+2019-10-21 14:57:04,418 [main] INFO  abs.ixi.server.BasicComponent - Starting disco server component
+2019-10-21 14:57:04,418 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component disco
+2019-10-21 14:57:04,419 [main] INFO  abs.ixi.server.BasicComponent - Starting presence-manager server component
+2019-10-21 14:57:04,420 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component presence-manager
+2019-10-21 14:57:04,422 [main] DEBUG abs.ixi.server.session.PresenceManager - Presence Manager started
+2019-10-21 14:57:04,423 [main] INFO  abs.ixi.server.BasicComponent - Starting MUC server component
+2019-10-21 14:57:04,423 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component MUC
+2019-10-21 14:57:04,423 [main] DEBUG abs.ixi.server.etc.MySQL - Getting chat rooms...
+2019-10-21 14:57:04,423 [main] TRACE abs.ixi.server.etc.MySQL - Borrowing database connection
+2019-10-21 14:57:04,424 [Thread-5] INFO  abs.ixi.server.io.net.ConnectionManager - Waiting for connections...
+2019-10-21 14:57:04,424 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Starting Channel Event loop
+2019-10-21 14:57:14,425 [Thread-1] TRACE abs.ixi.server.io.net.ChannelEventDispatcher - 0 keys were selected
+2019-10-21 14:57:24,427 [Thread-1] TRACE abs.ixi.server.io.net.ChannelEventDispatcher - 0 keys were selected
+2019-10-21 14:57:26,123 [main] ERROR abs.ixi.server.etc.MySQL - Error while borrowing database connection
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at abs.ixi.server.etc.MySQL.getConnection(MySQL.java:161)
+	at abs.ixi.server.etc.MySQL.getChatRooms(MySQL.java:1313)
+	at abs.ixi.server.etc.PersistenceService.getChatRooms(PersistenceService.java:267)
+	at abs.ixi.server.muc.MultiUserChatHandler.start(MultiUserChatHandler.java:65)
+	at abs.ixi.server.Stringflow.startComponents(Stringflow.java:121)
+	at abs.ixi.server.Stringflow.main(Stringflow.java:102)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:590)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:57)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1606)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:633)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:347)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:219)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 8 common frames omitted
+Caused by: com.mysql.cj.core.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:54)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:93)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:133)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:149)
+	at com.mysql.cj.mysqla.io.MysqlaSocketConnection.connect(MysqlaSocketConnection.java:83)
+	at com.mysql.cj.mysqla.MysqlaSession.connect(MysqlaSession.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:1726)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1596)
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.cj.core.io.StandardSocketFactory.connect(StandardSocketFactory.java:202)
+	at com.mysql.cj.mysqla.io.MysqlaSocketConnection.connect(MysqlaSocketConnection.java:57)
+	... 18 common frames omitted
+2019-10-21 14:57:26,125 [main] ERROR abs.ixi.server.etc.MySQL - Error while presence subscription for userJID {} and subscriberJID {}
+abs.ixi.server.etc.DatabaseException: Failed to get database connection
+	at abs.ixi.server.etc.MySQL.getConnection(MySQL.java:165)
+	at abs.ixi.server.etc.MySQL.getChatRooms(MySQL.java:1313)
+	at abs.ixi.server.etc.PersistenceService.getChatRooms(PersistenceService.java:267)
+	at abs.ixi.server.muc.MultiUserChatHandler.start(MultiUserChatHandler.java:65)
+	at abs.ixi.server.Stringflow.startComponents(Stringflow.java:121)
+	at abs.ixi.server.Stringflow.main(Stringflow.java:102)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at abs.ixi.server.etc.MySQL.getConnection(MySQL.java:161)
+	... 5 common frames omitted
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:590)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:57)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1606)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:633)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:347)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:219)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 8 common frames omitted
+Caused by: com.mysql.cj.core.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:54)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:93)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:133)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:149)
+	at com.mysql.cj.mysqla.io.MysqlaSocketConnection.connect(MysqlaSocketConnection.java:83)
+	at com.mysql.cj.mysqla.MysqlaSession.connect(MysqlaSession.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:1726)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1596)
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.cj.core.io.StandardSocketFactory.connect(StandardSocketFactory.java:202)
+	at com.mysql.cj.mysqla.io.MysqlaSocketConnection.connect(MysqlaSocketConnection.java:57)
+	... 18 common frames omitted
+2019-10-21 14:57:26,132 [main] DEBUG abs.ixi.server.etc.MySqlHelper - Closing database connection...
+2019-10-21 14:57:26,133 [main] WARN  abs.ixi.server.etc.MySqlHelper - Failed to close database connection
+java.lang.NullPointerException: null
+	at abs.ixi.server.etc.MySqlHelper.closeConnection(MySqlHelper.java:90)
+	at abs.ixi.server.etc.MySQL.getChatRooms(MySQL.java:1333)
+	at abs.ixi.server.etc.PersistenceService.getChatRooms(PersistenceService.java:267)
+	at abs.ixi.server.muc.MultiUserChatHandler.start(MultiUserChatHandler.java:65)
+	at abs.ixi.server.Stringflow.startComponents(Stringflow.java:121)
+	at abs.ixi.server.Stringflow.main(Stringflow.java:102)
+2019-10-21 14:57:26,133 [main] DEBUG abs.ixi.server.muc.MultiUserChatHandler - MUC Handler Started
+2019-10-21 14:57:26,133 [main] INFO  abs.ixi.server.Stringflow - **************** Server has started ****************

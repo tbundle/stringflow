@@ -1,0 +1,4 @@
+sfPresenceSubscribers : {
+	_id : "dharmu@alterbasics.com",
+	subscribers : ["vishal@alterbasics.com", "yogi@alterbasics.com"]
+}

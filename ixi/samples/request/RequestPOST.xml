@@ -1,0 +1,6 @@
+<iq id='1234' type='set'>
+	<request xmlns='stringflow:request'>
+		uri = helloxi/abc
+		content-length = 100
+	</request>
+</iq>

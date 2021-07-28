@@ -1,0 +1,12 @@
+(1) Refactor network layer in such a way that OP_ACCEPT should be registered with selector.
+Meaning server socket will also be registered with the same selector with READ_INTEREST in
+OP_SELECT. This is free-up one thread (Connection Acceptor) in each Connection Manager. The
+changes will certainly slow down connection acceptance rate on server.
+(2) Subscription must be handled by bootstrap process
+(3) Preprocessors/Postprocess should not access process configs; they are supposed to be light weight
+(4) Somehow ObjectUtils class from quick-http has been referenced in core Server code; remove it.
+(5) Remove LogBack abbreviation of package names in logs 
+(6) BSON Grammer needs to be modified to support Couplet name as part of document definition
+   INT32 elist "\x00" should be changed to INT32 "\x00" doc_name elist "\x00"
+(7) IOService blocks selector thread; if the selector signals byte arival and IOServices is executing
+(8) 

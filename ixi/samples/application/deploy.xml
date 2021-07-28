@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<application xmlns="http://stringflow.com/xml/ns/xmpp/application"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://stringflow.com/xml/ns/xmpp/application http://stringflow.com/xml/ns/xmpp/application/application.xsd">
+	
+	<name>helloxi</name>
+	<publishAddress>helloxi</publishAddress>
+
+	<callback>
+		<after-init>com.sample.test.AfterInitCallback</after-init>
+		<before-start>com.sample.test.BeforeStartCallback</before-start>
+		<before-shutdown>com.sample.test.BeforeShutdownCallback</before-shutdown>
+	</callback>
+	
+	<appfront>
+		<appfront-class>abs.ixi.server.app.DefaultAppfront</appfront-class>
+		<uri-segment>appfront</uri-segment>
+		<list> 
+			<request-receiver>com.sample.test.RequestReceiver1</request-receiver>
+			<request-receiver>com.sample.test.test.RequestReceiver2</request-receiver>
+		</list>
+	</appfront>	
+	
+	<appfront>
+		<appfront-class>com.sample.test.HelloxiAppfront</appfront-class>
+		<uri-segment>abc</uri-segment>
+		<list> 
+			<request-receiver>com.sample.test.HelloxiRequestReceiver1</request-receiver>
+			<request-receiver>com.sample.test.test.HelloxiRequestReceiver2</request-receiver>
+		</list>
+	</appfront>	
+	
+	<appfront>
+		<appfront-class>com.sample.test.HelloxiAppfront2</appfront-class>
+		<uri-segment>xyz</uri-segment>
+		<list> 
+			<request-receiver>com.sample.test.HelloxiRequestReceiver3</request-receiver>
+			<request-receiver>com.sample.test.test.HelloxiRequestReceiver4</request-receiver>
+		</list>
+	</appfront>	
+	
+</application>

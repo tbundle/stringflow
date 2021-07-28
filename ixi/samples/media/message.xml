@@ -1,0 +1,6 @@
+<message>
+	<media id='media-id'>
+		<content-type>image/jpeg</content-type>
+		<thumb>Base64 thumbnail</thumb>
+	</media>
+</message>

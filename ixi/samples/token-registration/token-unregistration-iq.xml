@@ -1,0 +1,9 @@
+<iq id='123' to='alterbasics.com' type='set'>
+	<push xmlns='stringflow:push'>
+		<device-id>gvdcbhsamk</device-id>
+		<notification-service>FCM</notification-service>
+		<device-token>xyz</device-token>
+		<device-type>android</device-type>
+		<remove />
+	</push>
+</iq>

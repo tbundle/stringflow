@@ -1,0 +1,9 @@
+sfMessage : {
+	_id : "dgfgewjhukhqkgjkgjkjg",
+	message : "Hii dharmu how r u",
+	sender : "yogi@alterbasics.com",
+	receiver : "dharmu@alterbasics.com",
+	create_time : ISODate("2010-09-24"),
+	delivery_time : ISODate("2010-09-24"),
+	is_delivered : 1
+}

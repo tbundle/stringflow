@@ -1,0 +1,31 @@
+sfUser : {
+	_id : "dharmu@alterbasics.com",
+	password  : "xyz",
+	first_name : "Dharmendra",
+	middle_name : "A",
+	last_name : "Saraswat"   
+	nick_name : "dharmu",
+	email : "dharmu@alterbasics",
+	phone : "9970755168",
+	gender : "male",
+	bday : "24/04/1993",
+	about : "I am huejf wnivjic  cvjkvd v newjv",
+	
+	avatar : {
+				base64_encoded_image = "",
+				mime_type = "image/jpeg"
+			 },
+			 
+    address : {
+				home : "11/2",
+				street : "yuk buk hun",
+				locality : "chung mung bug",
+				state : "maharastra",
+				city : "pune",
+				country : "india"
+				pcode : "460111"
+			  },			 
+	
+	create_time : ISODate("2010-09-24"),
+	status : 1
+}

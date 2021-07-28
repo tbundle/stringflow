@@ -1,0 +1,281 @@
+2019-10-14 00:59:06,311 [main] INFO  abs.ixi.server.Stringflow - Starting Stringflow process...
+2019-10-14 00:59:06,327 [main] INFO  abs.ixi.server.Stringflow - Loading server configurations
+2019-10-14 00:59:06,331 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading configurations from file: system.properties
+2019-10-14 00:59:06,337 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Loading config file process.properties
+2019-10-14 00:59:06,341 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.server.jid has value sf@alterbasics.com
+2019-10-14 00:59:06,343 [main] INFO  abs.ixi.server.Stringflow - Server has been registered in domain alterbasics.com
+2019-10-14 00:59:06,343 [main] DEBUG abs.ixi.server.Stringflow - Bootstraping server with following configurations:
+2019-10-14 00:59:06,344 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ====================== System Properties =========================
+2019-10-14 00:59:06,344 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.tls.supported:false
+2019-10-14 00:59:06,344 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.server.jid:sf@alterbasics.com
+2019-10-14 00:59:06,345 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.packetcache.size:1000
+2019-10-14 00:59:06,345 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.password:M0neyMachine
+2019-10-14 00:59:06,345 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.url:jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-14 00:59:06,345 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.sasl.saslserverfactory:abs.ixi.server.secure.sasl.SaslMechanismFactory
+2019-10-14 00:59:06,345 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.maximum.connection.count:10
+2019-10-14 00:59:06,345 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.xmpp.parser-provider:abs.ixi.util.xml.SwiftParserProvider
+2019-10-14 00:59:06,345 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.dbservice.prefered.database:abs.ixi.server.etc.MySQL
+2019-10-14 00:59:06,346 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.username:remote
+2019-10-14 00:59:06,346 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.dbname:ixi
+2019-10-14 00:59:06,346 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - fcm.server.key:AIzaSyAlFaQJcBDeXeTF96F7BH8vqNTHivW85Ws
+2019-10-14 00:59:06,346 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.max.streamResumptionTimeInSeconds:300
+2019-10-14 00:59:06,347 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.multi.domain.chat:true
+2019-10-14 00:59:06,348 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.watchdog.scheduling.interval.in.minutes:5
+2019-10-14 00:59:06,349 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.media.port:5444
+2019-10-14 00:59:06,349 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.length:3
+2019-10-14 00:59:06,349 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.driverClassName:com.mysql.jdbc.Driver
+2019-10-14 00:59:06,350 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.username:remote
+2019-10-14 00:59:06,350 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.url:mongodb://alterbasics.com:27017
+2019-10-14 00:59:06,350 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.passphrase:Stringflow123
+2019-10-14 00:59:06,350 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.file.path:C:\Users\Gudia\AppData\Roaming\Skype\My Skype Received Files\Certificates(1).p12
+2019-10-14 00:59:06,350 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.server.media.send.buffer.size:4096
+2019-10-14 00:59:06,350 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - mongodb.password:M0neyMachine
+2019-10-14 00:59:06,351 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - media.store.path:D:/temp/
+2019-10-14 00:59:06,351 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ixi.filesystem.dir.level:3
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - apns.cert.environment:DEV 
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - jdbc.minimum.connection.count:3
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - ==================== Stringflow Process Configrations ======================
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.core.component.load.filter:null
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.max.size:2
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.capacity:120000
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.keep.alive.minutes:5
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cluster.nodes:
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.max.size:5
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.port:5234
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.mime.active:false
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.keep.alive.minutes:
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.element.name.size:128
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.ioc.short-circuit:false
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.value.size:128
+2019-10-14 00:59:06,352 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.number.size:128
+2019-10-14 00:59:06,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.cdata.size:5120
+2019-10-14 00:59:06,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.type:DIRECT
+2019-10-14 00:59:06,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.keep.alive.minutes:5
+2019-10-14 00:59:06,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.active:false
+2019-10-14 00:59:06,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.count.limit:50
+2019-10-14 00:59:06,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.core.size:3
+2019-10-14 00:59:06,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store:abs.ixi.server.session.DefaultSessionStore
+2019-10-14 00:59:06,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.bosh.port:5240
+2019-10-14 00:59:06,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.tls:false
+2019-10-14 00:59:06,353 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.mode:single
+2019-10-14 00:59:06,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.cached.bufferfactory.buffer.size:4096
+2019-10-14 00:59:06,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.core.size:1
+2019-10-14 00:59:06,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session-manager.store.type:internal
+2019-10-14 00:59:06,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.keep.alive.minutes:5
+2019-10-14 00:59:06,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - parser.swift.max.attr.name.size:128
+2019-10-14 00:59:06,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.session.watchdog.frequency:5
+2019-10-14 00:59:06,354 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.threadpool.max.size:2
+2019-10-14 00:59:06,355 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.io.controller.threadpool.max.size:7
+2019-10-14 00:59:06,355 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.manage.control.port:9001
+2019-10-14 00:59:06,356 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.port:5222
+2019-10-14 00:59:06,356 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.transport.threadpool.core.size:3
+2019-10-14 00:59:06,356 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.task.runner.schedule.threadpool.core.size:1
+2019-10-14 00:59:06,356 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - sf.net.connection.manager.xmpp.active:true
+2019-10-14 00:59:06,356 [main] INFO  abs.ixi.server.etc.conf.ServerConfigurations - Platform native byte order LITTLE_ENDIAN 
+
+2019-10-14 00:59:06,374 [main] INFO  abs.ixi.server.sys.Bootstrap - internalizing string literals
+2019-10-14 00:59:06,375 [main] DEBUG abs.ixi.server.sys.Bootstrap - Internalizing XMPP Strings
+2019-10-14 00:59:06,375 [main] INFO  abs.ixi.server.sys.Bootstrap - Setting swift parser properties
+2019-10-14 00:59:06,375 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.count.limit has value 50
+2019-10-14 00:59:06,376 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.number.size has value 128
+2019-10-14 00:59:06,376 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.element.name.size has value 128
+2019-10-14 00:59:06,376 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.name.size has value 128
+2019-10-14 00:59:06,377 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.attr.value.size has value 128
+2019-10-14 00:59:06,377 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key parser.swift.max.cdata.size has value 5120
+2019-10-14 00:59:06,378 [main] INFO  abs.ixi.server.sys.Bootstrap - OS Name: Windows 10
+2019-10-14 00:59:06,378 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Architecture: amd64
+2019-10-14 00:59:06,378 [main] DEBUG abs.ixi.server.sys.Bootstrap - OS Version: 10.0
+2019-10-14 00:59:06,378 [main] INFO  abs.ixi.server.sys.Bootstrap - Available Processors: 4
+2019-10-14 00:59:06,378 [main] INFO  abs.ixi.server.sys.Bootstrap - Free Memory: 117375896
+2019-10-14 00:59:06,378 [main] DEBUG abs.ixi.server.sys.Bootstrap - Max Memory: 1886912512
+2019-10-14 00:59:06,378 [main] INFO  abs.ixi.server.sys.Bootstrap - Total Memory: 128974848
+2019-10-14 00:59:06,378 [main] DEBUG abs.ixi.server.sys.Bootstrap - FileSystem: sun.nio.fs.WindowsFileSystem@357246de
+2019-10-14 00:59:06,378 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.core.component.load.filter has value null
+2019-10-14 00:59:06,378 [main] INFO  abs.ixi.server.sys.CoreComponentLoader - Loading packet router
+2019-10-14 00:59:06,384 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key ixi.server.dbservice.packetcache.size has value 1000
+2019-10-14 00:59:06,388 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key ixi.server.dbservice.prefered.database has value abs.ixi.server.etc.MySQL
+2019-10-14 00:59:06,395 [main] INFO  abs.ixi.server.etc.PersistenceService - loaded database abs.ixi.server.etc.MySQL
+2019-10-14 00:59:06,395 [main] INFO  abs.ixi.server.etc.MySQL - Initilizing MySql Database...
+2019-10-14 00:59:06,408 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.url has value jdbc:mysql://188.166.251.121:3306/ixi
+2019-10-14 00:59:06,408 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.driverClassName has value com.mysql.jdbc.Driver
+2019-10-14 00:59:06,408 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.username has value remote
+2019-10-14 00:59:06,408 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.password has value M0neyMachine
+2019-10-14 00:59:06,408 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.minimum.connection.count has value 3
+2019-10-14 00:59:06,415 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key jdbc.maximum.connection.count has value 10
+2019-10-14 00:59:06,417 [main] INFO  abs.ixi.server.etc.MySQL - MySQL persistence has been initialized
+2019-10-14 00:59:06,422 [main] DEBUG abs.ixi.server.io.net.NetworkTransport - Acquiring buffer factory instance
+2019-10-14 00:59:06,424 [main] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Instantiating Cached buffer factory
+2019-10-14 00:59:06,426 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.buffer.size has value 4096
+2019-10-14 00:59:06,431 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.capacity has value 120000
+2019-10-14 00:59:06,444 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.cached.bufferfactory.buffer.type has value DIRECT
+2019-10-14 00:59:06,444 [main] INFO  abs.ixi.server.io.net.CachedBufferFactory - Buffer size : 4096 factory capacity : 120000 and BufferType : DIRECT
+2019-10-14 00:59:06,445 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.core.size has value 3
+2019-10-14 00:59:06,445 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.max.size has value 5
+2019-10-14 00:59:06,445 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.threadpool.keep.alive.minutes has value 5
+2019-10-14 00:59:06,808 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.active has value true
+2019-10-14 00:59:06,812 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.xmpp.port has value 5222
+2019-10-14 00:59:06,816 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_RCVBUF
+2019-10-14 00:59:06,816 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : SO_REUSEADDR
+2019-10-14 00:59:06,816 [main] DEBUG abs.ixi.server.io.net.ServerChannelFactory - Server Socket Channel supports option : IP_TOS
+2019-10-14 00:59:06,817 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option TCP_NODELAY is not supported
+2019-10-14 00:59:06,817 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_KEEPALIVE is not supported
+2019-10-14 00:59:06,817 [main] WARN  abs.ixi.server.io.net.ServerChannelFactory - Option SO_SNDBUF is not supported
+2019-10-14 00:59:06,817 [main] INFO  abs.ixi.server.io.net.ServerChannelFactory - Binding server socket listener port 5222
+2019-10-14 00:59:06,878 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Instantiated XMPP Connection manager
+2019-10-14 00:59:06,881 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.connection.manager.bosh.active has value false
+2019-10-14 00:59:06,887 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.core.size has value 3
+2019-10-14 00:59:06,887 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.max.size has value 7
+2019-10-14 00:59:06,887 [main] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.io.controller.threadpool.keep.alive.minutes has value 5
+2019-10-14 00:59:06,889 [main] INFO  abs.ixi.server.BasicComponent - Starting router server component
+2019-10-14 00:59:06,891 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component router
+2019-10-14 00:59:06,893 [main] INFO  abs.ixi.server.BasicComponent - Starting io-controller server component
+2019-10-14 00:59:06,894 [main] INFO  abs.ixi.server.ConsumerComponent - Starting inbound packet processor thread in component io-controller
+2019-10-14 00:59:06,894 [main] INFO  abs.ixi.server.BasicComponent - Starting netTransport server component
+2019-10-14 00:59:06,894 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Starting connection managers
+2019-10-14 00:59:06,894 [main] INFO  abs.ixi.server.io.net.XMPPConnectionManager - Starting XMPP Connection Manager
+2019-10-14 00:59:06,894 [main] INFO  abs.ixi.server.io.net.ConnectionManager - Starting connection acceptor thread
+2019-10-14 00:59:06,894 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Started abs.ixi.server.io.net.XMPPConnectionManager@3e6fa38a
+2019-10-14 00:59:06,894 [main] INFO  abs.ixi.server.io.net.NetworkTransport - Starting channel event dispacther thread
+2019-10-14 00:59:06,894 [Thread-5] INFO  abs.ixi.server.io.net.ConnectionManager - Waiting for connections...
+2019-10-14 00:59:06,894 [main] INFO  abs.ixi.server.Stringflow - =================== Loaded Server Components ====================
+2019-10-14 00:59:06,895 [main] INFO  abs.ixi.server.Stringflow - router : abs.ixi.server.router.PacketRouter@66a3ffec
+2019-10-14 00:59:06,895 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Starting Channel Event loop
+2019-10-14 00:59:06,895 [main] INFO  abs.ixi.server.Stringflow - io-controller : abs.ixi.server.io.IOController@77caeb3e
+2019-10-14 00:59:06,895 [main] INFO  abs.ixi.server.Stringflow - netTransport : abs.ixi.server.io.net.NetworkTransport@1e88b3c
+2019-10-14 00:59:06,895 [main] INFO  abs.ixi.server.Stringflow - ================================================================
+2019-10-14 00:59:06,895 [main] INFO  abs.ixi.server.Stringflow - **************** Server has started ****************
+2019-10-14 00:59:16,896 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 0 keys were selected
+2019-10-14 00:59:20,791 [Thread-5] TRACE abs.ixi.server.io.net.ConnectionManager - Received inbound connection java.nio.channels.SocketChannel[connected local=/127.0.0.1:5222 remote=/127.0.0.1:56989]
+2019-10-14 00:59:20,792 [Thread-5] DEBUG abs.ixi.server.io.net.ConnectionManager - Preparing connection object for :/127.0.0.1:56989
+2019-10-14 00:59:20,806 [Thread-5] DEBUG abs.ixi.server.packet.XMPPPacketValidator - Adding StreamHeader validations 
+2019-10-14 00:59:20,818 [Thread-5] DEBUG abs.ixi.server.packet.XMPPPacketValidator - Adding start tls packet validetors 
+2019-10-14 00:59:20,821 [Thread-5] DEBUG abs.ixi.server.packet.XMPPPacketValidator - Adding SASL Auth packet validations 
+2019-10-14 00:59:20,825 [Thread-5] DEBUG abs.ixi.server.packet.XMPPPacketValidator - Adding SASL Response packet validations 
+2019-10-14 00:59:20,827 [Thread-5] DEBUG abs.ixi.server.packet.XMPPPacketValidator - Adding IQ validations 
+2019-10-14 00:59:20,831 [Thread-5] DEBUG abs.ixi.server.packet.XMPPPacketValidator - Adding Presence packet validetors 
+2019-10-14 00:59:20,831 [Thread-5] DEBUG abs.ixi.server.packet.XMPPPacketValidator - Adding Message packet validetors 
+2019-10-14 00:59:20,833 [Thread-5] DEBUG abs.ixi.server.packet.XMPPPacketValidator - Adding start tls packet validetors 
+2019-10-14 00:59:20,835 [Thread-5] DEBUG abs.ixi.server.packet.XMPPPacketValidator - Adding SM resume validetors 
+2019-10-14 00:59:20,837 [Thread-5] DEBUG abs.ixi.server.packet.XMPPPacketValidator - Adding Ack validetors 
+2019-10-14 00:59:20,838 [Thread-5] DEBUG abs.ixi.server.packet.XMPPPacketValidator - Adding Ack Request validetors 
+2019-10-14 00:59:20,851 [Thread-5] DEBUG abs.ixi.server.io.AbstractIOService - Instantiated abs.ixi.server.io.BasicIOService@33b442c9
+2019-10-14 00:59:20,871 [Thread-5] DEBUG abs.ixi.server.io.BasicIOService - Instantiated IOServie abs.ixi.server.io.BasicIOService@33b442c9
+2019-10-14 00:59:20,871 [Thread-5] INFO  abs.ixi.server.io.IOController - Instantiated Xmpp io service : io-svc-a27fe502f
+2019-10-14 00:59:20,871 [Thread-5] INFO  abs.ixi.server.io.net.NetworkTransport - Registering channel with selector
+2019-10-14 00:59:20,879 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 0 keys were selected
+2019-10-14 00:59:20,880 [Thread-5] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished registering socket channel with selector
+2019-10-14 00:59:20,880 [Thread-5] INFO  abs.ixi.server.io.BasicIOService - Channel Registered Event generated
+2019-10-14 00:59:30,881 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 0 keys were selected
+2019-10-14 00:59:30,881 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 1 keys were selected
+2019-10-14 00:59:30,885 [pool-2-thread-1] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Allocating buffer for lending
+2019-10-14 00:59:30,886 [pool-2-thread-1] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Number of buffers loaned: 1
+2019-10-14 00:59:30,886 [pool-2-thread-1] TRACE abs.ixi.server.io.net.IOPort - Read 217 bytes from abs.ixi.server.io.net.LocalSocket@3656cc9a
+2019-10-14 00:59:30,887 [pool-3-thread-1] DEBUG abs.ixi.server.io.AbstractIOService - Running abs.ixi.server.io.BasicIOService@33b442c9
+2019-10-14 00:59:30,888 [pool-3-thread-1] DEBUG abs.ixi.server.io.AbstractIOService - Received data <?xml version="1.0" encoding='UTF-8' ?><stream:stream from='yogi@alterbasics.com' to='alterbasics.com' version='1.0' xml:lang='en' xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams'></stream:stream>
+2019-10-14 00:59:30,941 [pool-3-thread-1] INFO  abs.ixi.server.protocol.PacketPreProcessorFactory - Loading Negotiation Packet Processors
+2019-10-14 00:59:30,977 [pool-3-thread-1] DEBUG abs.ixi.server.etc.conf.ServerConfigurations - ****key sf.net.transport.tls has value false
+2019-10-14 00:59:30,993 [pool-3-thread-1] INFO  abs.ixi.server.protocol.PacketPostProcessorFactory - Loading Negotiation Packet Processors
+2019-10-14 00:59:31,026 [pool-3-thread-1] INFO  abs.ixi.server.io.BasicIOService - Writting packet abs.ixi.server.packet.xmpp.StreamHeader@7ce9b701 onto abs.ixi.server.io.BasicIOService@33b442c9
+2019-10-14 00:59:31,033 [pool-3-thread-1] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Number of buffers loaned: 1
+2019-10-14 00:59:31,035 [pool-3-thread-1] INFO  abs.ixi.server.io.BasicIOService - Writting packet abs.ixi.server.packet.xmpp.StreamFeaturePacket@722e56ec onto abs.ixi.server.io.BasicIOService@33b442c9
+2019-10-14 00:59:31,035 [pool-3-thread-1] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Number of buffers loaned: 1
+2019-10-14 00:59:31,039 [pool-3-thread-1] INFO  abs.ixi.server.io.BasicIOService - Writting packet abs.ixi.server.packet.xmpp.StreamHeader@7611dc71 onto abs.ixi.server.io.BasicIOService@33b442c9
+2019-10-14 00:59:31,039 [pool-3-thread-1] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Number of buffers loaned: 1
+2019-10-14 00:59:31,040 [pool-3-thread-1] INFO  abs.ixi.server.io.AbstractIOService - Closing connection for bareJID null and resourceID io-svc-a27fe502f
+2019-10-14 00:59:31,040 [pool-3-thread-1] INFO  abs.ixi.server.io.BasicIOService - Destroying ioService abs.ixi.server.io.BasicIOService@33b442c9 with resource ID a27fe502f
+2019-10-14 00:59:31,041 [pool-3-thread-1] DEBUG abs.ixi.server.common.SafeCloseable - Closing abs.ixi.server.io.net.LocalSocket@3656cc9a
+2019-10-14 00:59:31,048 [pool-3-thread-1] ERROR abs.ixi.server.io.net.IOPortConnector - Not implemented
+2019-10-14 00:59:31,116 [Thread-5] TRACE abs.ixi.server.io.net.ConnectionManager - Received inbound connection java.nio.channels.SocketChannel[connected local=/127.0.0.1:5222 remote=/127.0.0.1:56990]
+2019-10-14 00:59:31,119 [Thread-5] DEBUG abs.ixi.server.io.net.ConnectionManager - Preparing connection object for :/127.0.0.1:56990
+2019-10-14 00:59:31,119 [Thread-5] DEBUG abs.ixi.server.io.AbstractIOService - Instantiated abs.ixi.server.io.BasicIOService@7c4ea0f4
+2019-10-14 00:59:31,120 [Thread-5] DEBUG abs.ixi.server.io.BasicIOService - Instantiated IOServie abs.ixi.server.io.BasicIOService@7c4ea0f4
+2019-10-14 00:59:31,120 [Thread-5] INFO  abs.ixi.server.io.IOController - Instantiated Xmpp io service : io-svc-09d185166
+2019-10-14 00:59:31,120 [Thread-5] INFO  abs.ixi.server.io.net.NetworkTransport - Registering channel with selector
+2019-10-14 00:59:31,121 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 0 keys were selected
+2019-10-14 00:59:41,122 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 0 keys were selected
+2019-10-14 00:59:41,122 [Thread-5] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished registering socket channel with selector
+2019-10-14 00:59:41,122 [Thread-5] INFO  abs.ixi.server.io.BasicIOService - Channel Registered Event generated
+2019-10-14 00:59:41,122 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 1 keys were selected
+2019-10-14 00:59:41,123 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - unregistering socket channel from selector
+2019-10-14 00:59:41,123 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Cancellled key sun.nio.ch.SelectionKeyImpl@394c29b9
+2019-10-14 00:59:41,123 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished unregistering socket channel from selector
+2019-10-14 00:59:41,123 [Thread-5] TRACE abs.ixi.server.io.net.ConnectionManager - Received inbound connection java.nio.channels.SocketChannel[connected local=/127.0.0.1:5222 remote=/127.0.0.1:56991]
+2019-10-14 00:59:41,123 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - unregistering socket channel from selector
+2019-10-14 00:59:41,123 [Thread-5] DEBUG abs.ixi.server.io.net.ConnectionManager - Preparing connection object for :/127.0.0.1:56991
+2019-10-14 00:59:41,123 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Cancellled key sun.nio.ch.SelectionKeyImpl@394c29b9
+2019-10-14 00:59:41,124 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished unregistering socket channel from selector
+2019-10-14 00:59:41,124 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - unregistering socket channel from selector
+2019-10-14 00:59:41,124 [Thread-5] DEBUG abs.ixi.server.io.AbstractIOService - Instantiated abs.ixi.server.io.BasicIOService@4d78fd1c
+2019-10-14 00:59:41,124 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Cancellled key sun.nio.ch.SelectionKeyImpl@394c29b9
+2019-10-14 00:59:41,124 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished unregistering socket channel from selector
+2019-10-14 00:59:41,124 [Thread-5] DEBUG abs.ixi.server.io.BasicIOService - Instantiated IOServie abs.ixi.server.io.BasicIOService@4d78fd1c
+2019-10-14 00:59:41,124 [Thread-5] INFO  abs.ixi.server.io.IOController - Instantiated Xmpp io service : io-svc-fd479b1d0
+2019-10-14 00:59:41,125 [Thread-5] INFO  abs.ixi.server.io.net.NetworkTransport - Registering channel with selector
+2019-10-14 00:59:41,126 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 0 keys were selected
+2019-10-14 00:59:41,126 [Thread-5] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished registering socket channel with selector
+2019-10-14 00:59:41,126 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 1 keys were selected
+2019-10-14 00:59:41,126 [Thread-5] INFO  abs.ixi.server.io.BasicIOService - Channel Registered Event generated
+2019-10-14 00:59:41,127 [Thread-5] TRACE abs.ixi.server.io.net.ConnectionManager - Received inbound connection java.nio.channels.SocketChannel[connected local=/127.0.0.1:5222 remote=/127.0.0.1:56992]
+2019-10-14 00:59:41,127 [Thread-5] DEBUG abs.ixi.server.io.net.ConnectionManager - Preparing connection object for :/127.0.0.1:56992
+2019-10-14 00:59:41,127 [Thread-5] DEBUG abs.ixi.server.io.AbstractIOService - Instantiated abs.ixi.server.io.BasicIOService@1c615fbb
+2019-10-14 00:59:41,128 [Thread-5] DEBUG abs.ixi.server.io.BasicIOService - Instantiated IOServie abs.ixi.server.io.BasicIOService@1c615fbb
+2019-10-14 00:59:41,128 [Thread-5] INFO  abs.ixi.server.io.IOController - Instantiated Xmpp io service : io-svc-a5454fd2b
+2019-10-14 00:59:41,128 [Thread-5] INFO  abs.ixi.server.io.net.NetworkTransport - Registering channel with selector
+2019-10-14 00:59:41,128 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 0 keys were selected
+2019-10-14 00:59:41,131 [pool-2-thread-2] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Number of buffers loaned: 1
+2019-10-14 00:59:41,132 [pool-2-thread-3] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Allocating buffer for lending
+2019-10-14 00:59:41,133 [pool-2-thread-3] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Number of buffers loaned: 2
+2019-10-14 00:59:41,133 [pool-2-thread-2] TRACE abs.ixi.server.io.net.IOPort - Read -1 bytes from abs.ixi.server.io.net.LocalSocket@178e4c22
+2019-10-14 00:59:41,133 [pool-2-thread-3] TRACE abs.ixi.server.io.net.IOPort - Read -1 bytes from abs.ixi.server.io.net.LocalSocket@4e6b63be
+2019-10-14 00:59:41,133 [pool-2-thread-2] DEBUG abs.ixi.server.io.net.IOPort - Encountered end of stream; disabling read selection
+2019-10-14 00:59:41,133 [pool-2-thread-3] DEBUG abs.ixi.server.io.net.IOPort - Encountered end of stream; disabling read selection
+2019-10-14 00:59:41,135 [pool-2-thread-3] DEBUG abs.ixi.server.io.AbstractIOService - Received channel dead signal; Unregistering...
+2019-10-14 00:59:41,135 [pool-2-thread-2] DEBUG abs.ixi.server.io.AbstractIOService - Received channel dead signal; Unregistering...
+2019-10-14 00:59:41,135 [pool-2-thread-2] INFO  abs.ixi.server.io.AbstractIOService - Closing connection for bareJID null and resourceID io-svc-09d185166
+2019-10-14 00:59:41,135 [pool-2-thread-3] INFO  abs.ixi.server.io.AbstractIOService - Closing connection for bareJID null and resourceID io-svc-fd479b1d0
+2019-10-14 00:59:41,135 [pool-2-thread-2] INFO  abs.ixi.server.io.BasicIOService - Destroying ioService abs.ixi.server.io.BasicIOService@7c4ea0f4 with resource ID 09d185166
+2019-10-14 00:59:41,135 [pool-2-thread-3] INFO  abs.ixi.server.io.BasicIOService - Destroying ioService abs.ixi.server.io.BasicIOService@4d78fd1c with resource ID fd479b1d0
+2019-10-14 00:59:41,135 [pool-2-thread-3] DEBUG abs.ixi.server.common.SafeCloseable - Closing abs.ixi.server.io.net.LocalSocket@4e6b63be
+2019-10-14 00:59:41,135 [pool-2-thread-2] DEBUG abs.ixi.server.common.SafeCloseable - Closing abs.ixi.server.io.net.LocalSocket@178e4c22
+2019-10-14 00:59:41,136 [pool-2-thread-2] ERROR abs.ixi.server.io.net.IOPortConnector - Not implemented
+2019-10-14 00:59:41,136 [pool-2-thread-3] ERROR abs.ixi.server.io.net.IOPortConnector - Not implemented
+2019-10-14 00:59:41,136 [pool-2-thread-3] DEBUG abs.ixi.server.io.net.IOPort - IOPort port-abs.ixi.server.io.net.LocalSocket@4e6b63be is already closed
+2019-10-14 00:59:41,136 [pool-2-thread-2] DEBUG abs.ixi.server.io.net.IOPort - IOPort port-abs.ixi.server.io.net.LocalSocket@178e4c22 is already closed
+2019-10-14 00:59:51,130 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 0 keys were selected
+2019-10-14 00:59:51,130 [Thread-5] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished registering socket channel with selector
+2019-10-14 00:59:51,131 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 1 keys were selected
+2019-10-14 00:59:51,131 [Thread-5] INFO  abs.ixi.server.io.BasicIOService - Channel Registered Event generated
+2019-10-14 00:59:51,131 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - unregistering socket channel from selector
+2019-10-14 00:59:51,132 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Cancellled key sun.nio.ch.SelectionKeyImpl@6dfd07be
+2019-10-14 00:59:51,132 [Thread-5] TRACE abs.ixi.server.io.net.ConnectionManager - Received inbound connection java.nio.channels.SocketChannel[connected local=/127.0.0.1:5222 remote=/127.0.0.1:56993]
+2019-10-14 00:59:51,132 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished unregistering socket channel from selector
+2019-10-14 00:59:51,132 [Thread-5] DEBUG abs.ixi.server.io.net.ConnectionManager - Preparing connection object for :/127.0.0.1:56993
+2019-10-14 00:59:51,132 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - unregistering socket channel from selector
+2019-10-14 00:59:51,132 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Cancellled key sun.nio.ch.SelectionKeyImpl@152104eb
+2019-10-14 00:59:51,133 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished unregistering socket channel from selector
+2019-10-14 00:59:51,133 [Thread-5] DEBUG abs.ixi.server.io.AbstractIOService - Instantiated abs.ixi.server.io.BasicIOService@13bef55b
+2019-10-14 00:59:51,133 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - unregistering socket channel from selector
+2019-10-14 00:59:51,134 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Cancellled key sun.nio.ch.SelectionKeyImpl@6dfd07be
+2019-10-14 00:59:51,134 [Thread-5] DEBUG abs.ixi.server.io.BasicIOService - Instantiated IOServie abs.ixi.server.io.BasicIOService@13bef55b
+2019-10-14 00:59:51,134 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished unregistering socket channel from selector
+2019-10-14 00:59:51,134 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - unregistering socket channel from selector
+2019-10-14 00:59:51,134 [Thread-5] INFO  abs.ixi.server.io.IOController - Instantiated Xmpp io service : io-svc-45fbc2f24
+2019-10-14 00:59:51,135 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Cancellled key sun.nio.ch.SelectionKeyImpl@152104eb
+2019-10-14 00:59:51,135 [Thread-5] INFO  abs.ixi.server.io.net.NetworkTransport - Registering channel with selector
+2019-10-14 00:59:51,135 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished unregistering socket channel from selector
+2019-10-14 00:59:51,136 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - unregistering socket channel from selector
+2019-10-14 00:59:51,136 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Cancellled key sun.nio.ch.SelectionKeyImpl@152104eb
+2019-10-14 00:59:51,136 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished unregistering socket channel from selector
+2019-10-14 00:59:51,136 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - unregistering socket channel from selector
+2019-10-14 00:59:51,136 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Cancellled key sun.nio.ch.SelectionKeyImpl@6dfd07be
+2019-10-14 00:59:51,136 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished unregistering socket channel from selector
+2019-10-14 00:59:51,137 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 0 keys were selected
+2019-10-14 00:59:51,139 [pool-2-thread-1] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Number of buffers loaned: 1
+2019-10-14 00:59:51,140 [pool-2-thread-1] TRACE abs.ixi.server.io.net.IOPort - Read -1 bytes from abs.ixi.server.io.net.LocalSocket@3caea7ea
+2019-10-14 00:59:51,141 [pool-2-thread-1] DEBUG abs.ixi.server.io.net.IOPort - Encountered end of stream; disabling read selection
+2019-10-14 00:59:51,142 [pool-2-thread-1] DEBUG abs.ixi.server.io.AbstractIOService - Received channel dead signal; Unregistering...
+2019-10-14 00:59:51,142 [pool-2-thread-1] INFO  abs.ixi.server.io.AbstractIOService - Closing connection for bareJID null and resourceID io-svc-a5454fd2b
+2019-10-14 00:59:51,142 [pool-2-thread-1] INFO  abs.ixi.server.io.BasicIOService - Destroying ioService abs.ixi.server.io.BasicIOService@1c615fbb with resource ID a5454fd2b
+2019-10-14 00:59:51,142 [pool-2-thread-1] DEBUG abs.ixi.server.common.SafeCloseable - Closing abs.ixi.server.io.net.LocalSocket@3caea7ea
+2019-10-14 00:59:51,143 [pool-2-thread-1] ERROR abs.ixi.server.io.net.IOPortConnector - Not implemented
+2019-10-14 00:59:51,144 [pool-2-thread-1] DEBUG abs.ixi.server.io.net.IOPort - IOPort port-abs.ixi.server.io.net.LocalSocket@3caea7ea is already closed

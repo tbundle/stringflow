@@ -1,0 +1,21 @@
+sfUserRoster : {
+	_id : "dharmu@alterbasics.com",
+	latest_version : "1",
+	roster_items : [
+		{
+			_id : "yogi@alterbasics.com",
+			name : "yogi",
+			status : 1,
+			version : 1,
+			create_time : ISODate("2010-09-24"),
+		},
+		{
+			_id : "vishal@alterbasics.com",
+			name : "vishal",
+			status : 1,
+			version : 2,
+			create_time : ISODate("2010-09-24"),
+		}
+	]
+}
+

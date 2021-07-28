@@ -1,0 +1,13 @@
+<iq id='123' from='dharmu@alterbasics.com' to='alterbasics.com' type='get'>
+	<query xmlns='stringflow:media'>
+		<media media-id='123456' sid='xyz-123' />
+	</query>
+</iq>
+
+
+
+<iq id='123' from='alterbasics.com' to='dharmu@alterbasics.com' type='result'>
+	<query xmlns='stringflow:media'>
+		<media media-id='123456' sid='xyz-123' />
+	</query>
+</iq>

@@ -1,0 +1,29 @@
+2019-10-14 01:00:01,138 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 0 keys were selected
+2019-10-14 01:00:01,138 [Thread-5] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished registering socket channel with selector
+2019-10-14 01:00:01,142 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 1 keys were selected
+2019-10-14 01:00:01,142 [Thread-5] INFO  abs.ixi.server.io.BasicIOService - Channel Registered Event generated
+2019-10-14 01:00:01,142 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - unregistering socket channel from selector
+2019-10-14 01:00:01,142 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Cancellled key sun.nio.ch.SelectionKeyImpl@19247b7e
+2019-10-14 01:00:01,142 [Thread-5] TRACE abs.ixi.server.io.net.ConnectionManager - Received inbound connection java.nio.channels.SocketChannel[connected local=/127.0.0.1:5222 remote=/127.0.0.1:56994]
+2019-10-14 01:00:01,143 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished unregistering socket channel from selector
+2019-10-14 01:00:01,143 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - unregistering socket channel from selector
+2019-10-14 01:00:01,143 [Thread-5] DEBUG abs.ixi.server.io.net.ConnectionManager - Preparing connection object for :/127.0.0.1:56994
+2019-10-14 01:00:01,143 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Cancellled key sun.nio.ch.SelectionKeyImpl@19247b7e
+2019-10-14 01:00:01,144 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished unregistering socket channel from selector
+2019-10-14 01:00:01,144 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - unregistering socket channel from selector
+2019-10-14 01:00:01,144 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - Cancellled key sun.nio.ch.SelectionKeyImpl@19247b7e
+2019-10-14 01:00:01,144 [Thread-5] DEBUG abs.ixi.server.io.AbstractIOService - Instantiated abs.ixi.server.io.BasicIOService@182fa763
+2019-10-14 01:00:01,144 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - finished unregistering socket channel from selector
+2019-10-14 01:00:01,145 [pool-2-thread-3] DEBUG abs.ixi.server.io.net.CachedBufferFactory - Number of buffers loaned: 1
+2019-10-14 01:00:01,145 [Thread-5] DEBUG abs.ixi.server.io.BasicIOService - Instantiated IOServie abs.ixi.server.io.BasicIOService@182fa763
+2019-10-14 01:00:01,146 [pool-2-thread-3] TRACE abs.ixi.server.io.net.IOPort - Read -1 bytes from abs.ixi.server.io.net.LocalSocket@40ac9403
+2019-10-14 01:00:01,146 [Thread-5] INFO  abs.ixi.server.io.IOController - Instantiated Xmpp io service : io-svc-ae52fd49f
+2019-10-14 01:00:01,146 [pool-2-thread-3] DEBUG abs.ixi.server.io.net.IOPort - Encountered end of stream; disabling read selection
+2019-10-14 01:00:01,146 [Thread-5] INFO  abs.ixi.server.io.net.NetworkTransport - Registering channel with selector
+2019-10-14 01:00:01,147 [pool-2-thread-3] DEBUG abs.ixi.server.io.AbstractIOService - Received channel dead signal; Unregistering...
+2019-10-14 01:00:01,147 [pool-2-thread-3] INFO  abs.ixi.server.io.AbstractIOService - Closing connection for bareJID null and resourceID io-svc-45fbc2f24
+2019-10-14 01:00:01,147 [Thread-1] DEBUG abs.ixi.server.io.net.ChannelEventDispatcher - 0 keys were selected
+2019-10-14 01:00:01,147 [pool-2-thread-3] INFO  abs.ixi.server.io.BasicIOService - Destroying ioService abs.ixi.server.io.BasicIOService@13bef55b with resource ID 45fbc2f24
+2019-10-14 01:00:01,147 [pool-2-thread-3] DEBUG abs.ixi.server.common.SafeCloseable - Closing abs.ixi.server.io.net.LocalSocket@40ac9403
+2019-10-14 01:00:01,148 [pool-2-thread-3] ERROR abs.ixi.server.io.net.IOPortConnector - Not implemented
+2019-10-14 01:00:01,148 [pool-2-thread-3] DEBUG abs.ixi.server.io.net.IOPort - IOPort port-abs.ixi.server.io.net.LocalSocket@40ac9403 is already closed

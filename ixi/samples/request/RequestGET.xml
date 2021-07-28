@@ -1,0 +1,8 @@
+<iq id='1234' type='get'>
+	<request xmlns='stringflow:request'>
+		<![CDATA[
+		uri = helloi/abc
+		content-length = 100
+		]]>
+	</request>
+</iq>

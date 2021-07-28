@@ -1,0 +1,5 @@
+<iq id='1234' type='error'>
+	<error xmlns='stringflow:error'>
+		content-length = 100
+	</error>
+</iq>

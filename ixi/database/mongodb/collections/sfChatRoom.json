@@ -1,0 +1,24 @@
+sfChatRoom : {
+	_id : "IXI@alterbasics.com",
+	name : "ixi",
+	subject : "ixi demo",
+	access_mode : "PUBLIC",
+	create_time : ISODate("2010-09-24"),
+	status : 1,
+	members : [
+		{
+			_id : "dharmu@alterbasics.com",
+			nick_name : "dharmu",
+			affiliation : "PARTICIPENT"
+			role : "MEMBER",
+			status : 1
+		},
+		{
+			_id : "yogi@alterbasics.com",
+			nick_name : "yogi",
+			affiliation : "PARTICIPENT"
+			role : "MEMBER",
+			status : 1
+		}
+	]
+}

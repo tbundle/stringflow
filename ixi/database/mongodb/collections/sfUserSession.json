@@ -1,0 +1,8 @@
+sfUserSession : { 
+	bare_jid : "dharmu@alterbasics.com",
+	resource_id : "abcdef",
+	device_ip : "49.14.82.244",
+	login_time : ISODate("2010-09-24"),
+	logout_time : ISODate("2010-09-24"),
+	status : "1"
+	}

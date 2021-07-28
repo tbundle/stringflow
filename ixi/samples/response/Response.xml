@@ -1,0 +1,5 @@
+<iq id='1234' type='result'>
+	<response xmlns='stringflow:response'>
+		content-length = 100
+	</response>
+</iq>
